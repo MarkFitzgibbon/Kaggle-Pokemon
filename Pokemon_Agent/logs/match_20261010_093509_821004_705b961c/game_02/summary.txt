@@ -1,0 +1,6 @@
+Game 2: Determined won
+Result: simulator result
+Turns: 24
+Decisions: 186
+Determined: 99 decisions
+Random: 87 decisions

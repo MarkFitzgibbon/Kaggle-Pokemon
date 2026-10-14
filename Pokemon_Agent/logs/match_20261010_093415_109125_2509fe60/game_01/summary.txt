@@ -1,0 +1,6 @@
+Game 1: Agent 0 won
+Result: simulator result
+Turns: 7
+Decisions: 58
+Agent 0: 52 decisions
+Agent 1: 6 decisions

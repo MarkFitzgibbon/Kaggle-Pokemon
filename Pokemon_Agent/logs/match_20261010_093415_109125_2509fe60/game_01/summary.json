@@ -1,0 +1,855 @@
+{
+  "game": 1,
+  "outcome": "win",
+  "winner": "Agent 0",
+  "winner_index": 0,
+  "result_code": 0,
+  "result_reason": "simulator result",
+  "turns": 7,
+  "decision_count": 58,
+  "decisions_by_agent": {
+    "Agent 0": 52,
+    "Agent 1": 6
+  },
+  "final_state": {
+    "turn": 7,
+    "turnActionCount": 7,
+    "yourIndex": 0,
+    "firstPlayer": 0,
+    "supporterPlayed": true,
+    "stadiumPlayed": false,
+    "energyAttached": true,
+    "retreated": false,
+    "result": 0,
+    "draw": 0,
+    "round": 1,
+    "stadium": [
+      {
+        "id": 1257,
+        "serial": 50,
+        "playerIndex": 0,
+        "name": "Team Rocket's Factory"
+      }
+    ],
+    "lookingCount": 0,
+    "looking": null,
+    "players": [
+      {
+        "active": [
+          {
+            "id": 401,
+            "serial": 6,
+            "playerIndex": 0,
+            "name": "Team Rocket's Spidops",
+            "hp": 130,
+            "maxHp": 130,
+            "appearThisTurn": false,
+            "energies": [
+              1,
+              5
+            ],
+            "energyCards": [
+              {
+                "id": 1,
+                "serial": 56,
+                "playerIndex": 0,
+                "name": "Basic {G} Energy"
+              },
+              {
+                "id": 5,
+                "serial": 59,
+                "playerIndex": 0,
+                "name": "Basic {P} Energy"
+              }
+            ],
+            "tools": [],
+            "preEvolution": [
+              {
+                "id": 400,
+                "serial": 9,
+                "playerIndex": 0,
+                "name": "Team Rocket's Tarountula"
+              }
+            ]
+          }
+        ],
+        "bench": [
+          {
+            "id": 401,
+            "serial": 8,
+            "playerIndex": 0,
+            "name": "Team Rocket's Spidops",
+            "hp": 120,
+            "maxHp": 130,
+            "appearThisTurn": false,
+            "energies": [
+              1,
+              11,
+              11,
+              11,
+              11,
+              7
+            ],
+            "energyCards": [
+              {
+                "id": 1,
+                "serial": 57,
+                "playerIndex": 0,
+                "name": "Basic {G} Energy"
+              },
+              {
+                "id": 15,
+                "serial": 54,
+                "playerIndex": 0,
+                "name": "Team Rocket's Energy"
+              },
+              {
+                "id": 15,
+                "serial": 52,
+                "playerIndex": 0,
+                "name": "Team Rocket's Energy"
+              },
+              {
+                "id": 7,
+                "serial": 61,
+                "playerIndex": 0,
+                "name": "Basic {D} Energy"
+              }
+            ],
+            "tools": [],
+            "preEvolution": [
+              {
+                "id": 400,
+                "serial": 11,
+                "playerIndex": 0,
+                "name": "Team Rocket's Tarountula"
+              }
+            ]
+          },
+          {
+            "id": 414,
+            "serial": 18,
+            "playerIndex": 0,
+            "name": "Team Rocket's Articuno",
+            "hp": 120,
+            "maxHp": 120,
+            "appearThisTurn": false,
+            "energies": [],
+            "energyCards": [],
+            "tools": [],
+            "preEvolution": []
+          },
+          {
+            "id": 400,
+            "serial": 10,
+            "playerIndex": 0,
+            "name": "Team Rocket's Tarountula",
+            "hp": 50,
+            "maxHp": 50,
+            "appearThisTurn": false,
+            "energies": [],
+            "energyCards": [],
+            "tools": [],
+            "preEvolution": []
+          },
+          {
+            "id": 456,
+            "serial": 17,
+            "playerIndex": 0,
+            "name": "Team Rocket's Zubat",
+            "hp": 50,
+            "maxHp": 50,
+            "appearThisTurn": false,
+            "energies": [],
+            "energyCards": [],
+            "tools": [],
+            "preEvolution": []
+          },
+          {
+            "id": 431,
+            "serial": 5,
+            "playerIndex": 0,
+            "name": "Team Rocket's Mewtwo ex",
+            "hp": 280,
+            "maxHp": 280,
+            "appearThisTurn": false,
+            "energies": [],
+            "energyCards": [],
+            "tools": [],
+            "preEvolution": []
+          }
+        ],
+        "benchMax": 5,
+        "deckCount": 15,
+        "discard": [
+          {
+            "id": 1116,
+            "serial": 41,
+            "playerIndex": 0,
+            "name": "Energy Switch"
+          },
+          {
+            "id": 458,
+            "serial": 13,
+            "playerIndex": 0,
+            "name": "Team Rocket's Crobat ex"
+          },
+          {
+            "id": 1219,
+            "serial": 32,
+            "playerIndex": 0,
+            "name": "Team Rocket's Petrel"
+          },
+          {
+            "id": 1121,
+            "serial": 39,
+            "playerIndex": 0,
+            "name": "Ultra Ball"
+          },
+          {
+            "id": 1134,
+            "serial": 33,
+            "playerIndex": 0,
+            "name": "Team Rocket's Transceiver"
+          },
+          {
+            "id": 1216,
+            "serial": 20,
+            "playerIndex": 0,
+            "name": "Team Rocket's Ariana"
+          },
+          {
+            "id": 1121,
+            "serial": 40,
+            "playerIndex": 0,
+            "name": "Ultra Ball"
+          },
+          {
+            "id": 1107,
+            "serial": 47,
+            "playerIndex": 0,
+            "name": "Scramble Switch"
+          },
+          {
+            "id": 1220,
+            "serial": 25,
+            "playerIndex": 0,
+            "name": "Team Rocket's Proton"
+          },
+          {
+            "id": 457,
+            "serial": 14,
+            "playerIndex": 0,
+            "name": "Team Rocket's Golbat"
+          },
+          {
+            "id": 1217,
+            "serial": 29,
+            "playerIndex": 0,
+            "name": "Team Rocket's Archer"
+          },
+          {
+            "id": 1121,
+            "serial": 38,
+            "playerIndex": 0,
+            "name": "Ultra Ball"
+          },
+          {
+            "id": 1134,
+            "serial": 34,
+            "playerIndex": 0,
+            "name": "Team Rocket's Transceiver"
+          },
+          {
+            "id": 1216,
+            "serial": 21,
+            "playerIndex": 0,
+            "name": "Team Rocket's Ariana"
+          },
+          {
+            "id": 1123,
+            "serial": 45,
+            "playerIndex": 0,
+            "name": "Switch"
+          }
+        ],
+        "prize": [
+          {
+            "id": 456,
+            "serial": 16,
+            "playerIndex": 0,
+            "name": "Team Rocket's Zubat"
+          },
+          {
+            "id": 1116,
+            "serial": 42,
+            "playerIndex": 0,
+            "name": "Energy Switch"
+          },
+          {
+            "id": 434,
+            "serial": 19,
+            "playerIndex": 0,
+            "name": "Team Rocket's Mimikyu"
+          },
+          {
+            "id": 1220,
+            "serial": 24,
+            "playerIndex": 0,
+            "name": "Team Rocket's Proton"
+          }
+        ],
+        "handCount": 11,
+        "hand": [
+          {
+            "id": 431,
+            "serial": 3,
+            "playerIndex": 0,
+            "name": "Team Rocket's Mewtwo ex"
+          },
+          {
+            "id": 1216,
+            "serial": 23,
+            "playerIndex": 0,
+            "name": "Team Rocket's Ariana"
+          },
+          {
+            "id": 5,
+            "serial": 58,
+            "playerIndex": 0,
+            "name": "Basic {P} Energy"
+          },
+          {
+            "id": 1257,
+            "serial": 49,
+            "playerIndex": 0,
+            "name": "Team Rocket's Factory"
+          },
+          {
+            "id": 1220,
+            "serial": 26,
+            "playerIndex": 0,
+            "name": "Team Rocket's Proton"
+          },
+          {
+            "id": 458,
+            "serial": 12,
+            "playerIndex": 0,
+            "name": "Team Rocket's Crobat ex"
+          },
+          {
+            "id": 1257,
+            "serial": 48,
+            "playerIndex": 0,
+            "name": "Team Rocket's Factory"
+          },
+          {
+            "id": 15,
+            "serial": 51,
+            "playerIndex": 0,
+            "name": "Team Rocket's Energy"
+          },
+          {
+            "id": 1220,
+            "serial": 27,
+            "playerIndex": 0,
+            "name": "Team Rocket's Proton"
+          },
+          {
+            "id": 1121,
+            "serial": 37,
+            "playerIndex": 0,
+            "name": "Ultra Ball"
+          },
+          {
+            "id": 457,
+            "serial": 15,
+            "playerIndex": 0,
+            "name": "Team Rocket's Golbat"
+          }
+        ],
+        "deck": [
+          {
+            "id": 1097,
+            "serial": 43,
+            "playerIndex": 0,
+            "name": "Night Stretcher"
+          },
+          {
+            "id": 401,
+            "serial": 7,
+            "playerIndex": 0,
+            "name": "Team Rocket's Spidops"
+          },
+          {
+            "id": 7,
+            "serial": 62,
+            "playerIndex": 0,
+            "name": "Basic {D} Energy"
+          },
+          {
+            "id": 431,
+            "serial": 4,
+            "playerIndex": 0,
+            "name": "Team Rocket's Mewtwo ex"
+          },
+          {
+            "id": 1134,
+            "serial": 36,
+            "playerIndex": 0,
+            "name": "Team Rocket's Transceiver"
+          },
+          {
+            "id": 1123,
+            "serial": 46,
+            "playerIndex": 0,
+            "name": "Switch"
+          },
+          {
+            "id": 15,
+            "serial": 53,
+            "playerIndex": 0,
+            "name": "Team Rocket's Energy"
+          },
+          {
+            "id": 1097,
+            "serial": 44,
+            "playerIndex": 0,
+            "name": "Night Stretcher"
+          },
+          {
+            "id": 1216,
+            "serial": 22,
+            "playerIndex": 0,
+            "name": "Team Rocket's Ariana"
+          },
+          {
+            "id": 5,
+            "serial": 60,
+            "playerIndex": 0,
+            "name": "Basic {P} Energy"
+          },
+          {
+            "id": 1218,
+            "serial": 31,
+            "playerIndex": 0,
+            "name": "Team Rocket's Giovanni"
+          },
+          {
+            "id": 1,
+            "serial": 55,
+            "playerIndex": 0,
+            "name": "Basic {G} Energy"
+          },
+          {
+            "id": 1218,
+            "serial": 30,
+            "playerIndex": 0,
+            "name": "Team Rocket's Giovanni"
+          },
+          {
+            "id": 1134,
+            "serial": 35,
+            "playerIndex": 0,
+            "name": "Team Rocket's Transceiver"
+          },
+          {
+            "id": 1217,
+            "serial": 28,
+            "playerIndex": 0,
+            "name": "Team Rocket's Archer"
+          }
+        ],
+        "poisoned": false,
+        "burned": false,
+        "asleep": false,
+        "paralyzed": false,
+        "confused": false,
+        "win": 0,
+        "remainingTime": 599.9995620000003
+      },
+      {
+        "active": [],
+        "bench": [],
+        "benchMax": 5,
+        "deckCount": 44,
+        "discard": [
+          {
+            "id": 431,
+            "serial": 65,
+            "playerIndex": 1,
+            "name": "Team Rocket's Mewtwo ex"
+          },
+          {
+            "id": 5,
+            "serial": 119,
+            "playerIndex": 1,
+            "name": "Basic {P} Energy"
+          },
+          {
+            "id": 15,
+            "serial": 113,
+            "playerIndex": 1,
+            "name": "Team Rocket's Energy"
+          }
+        ],
+        "prize": [
+          {
+            "id": 401,
+            "serial": 67,
+            "playerIndex": 1,
+            "name": "Team Rocket's Spidops"
+          },
+          {
+            "id": 15,
+            "serial": 112,
+            "playerIndex": 1,
+            "name": "Team Rocket's Energy"
+          },
+          {
+            "id": 5,
+            "serial": 118,
+            "playerIndex": 1,
+            "name": "Basic {P} Energy"
+          },
+          {
+            "id": 1257,
+            "serial": 108,
+            "playerIndex": 1,
+            "name": "Team Rocket's Factory"
+          },
+          {
+            "id": 1220,
+            "serial": 84,
+            "playerIndex": 1,
+            "name": "Team Rocket's Proton"
+          },
+          {
+            "id": 1220,
+            "serial": 85,
+            "playerIndex": 1,
+            "name": "Team Rocket's Proton"
+          }
+        ],
+        "handCount": 7,
+        "hand": [
+          {
+            "id": 1217,
+            "serial": 89,
+            "playerIndex": 1,
+            "name": "Team Rocket's Archer"
+          },
+          {
+            "id": 458,
+            "serial": 73,
+            "playerIndex": 1,
+            "name": "Team Rocket's Crobat ex"
+          },
+          {
+            "id": 1220,
+            "serial": 87,
+            "playerIndex": 1,
+            "name": "Team Rocket's Proton"
+          },
+          {
+            "id": 15,
+            "serial": 111,
+            "playerIndex": 1,
+            "name": "Team Rocket's Energy"
+          },
+          {
+            "id": 431,
+            "serial": 64,
+            "playerIndex": 1,
+            "name": "Team Rocket's Mewtwo ex"
+          },
+          {
+            "id": 1116,
+            "serial": 102,
+            "playerIndex": 1,
+            "name": "Energy Switch"
+          },
+          {
+            "id": 456,
+            "serial": 77,
+            "playerIndex": 1,
+            "name": "Team Rocket's Zubat"
+          }
+        ],
+        "deck": [
+          {
+            "id": 1257,
+            "serial": 109,
+            "playerIndex": 1,
+            "name": "Team Rocket's Factory"
+          },
+          {
+            "id": 400,
+            "serial": 69,
+            "playerIndex": 1,
+            "name": "Team Rocket's Tarountula"
+          },
+          {
+            "id": 401,
+            "serial": 68,
+            "playerIndex": 1,
+            "name": "Team Rocket's Spidops"
+          },
+          {
+            "id": 15,
+            "serial": 114,
+            "playerIndex": 1,
+            "name": "Team Rocket's Energy"
+          },
+          {
+            "id": 1218,
+            "serial": 91,
+            "playerIndex": 1,
+            "name": "Team Rocket's Giovanni"
+          },
+          {
+            "id": 1216,
+            "serial": 82,
+            "playerIndex": 1,
+            "name": "Team Rocket's Ariana"
+          },
+          {
+            "id": 431,
+            "serial": 63,
+            "playerIndex": 1,
+            "name": "Team Rocket's Mewtwo ex"
+          },
+          {
+            "id": 400,
+            "serial": 70,
+            "playerIndex": 1,
+            "name": "Team Rocket's Tarountula"
+          },
+          {
+            "id": 1134,
+            "serial": 96,
+            "playerIndex": 1,
+            "name": "Team Rocket's Transceiver"
+          },
+          {
+            "id": 1217,
+            "serial": 88,
+            "playerIndex": 1,
+            "name": "Team Rocket's Archer"
+          },
+          {
+            "id": 1123,
+            "serial": 105,
+            "playerIndex": 1,
+            "name": "Switch"
+          },
+          {
+            "id": 1219,
+            "serial": 92,
+            "playerIndex": 1,
+            "name": "Team Rocket's Petrel"
+          },
+          {
+            "id": 1121,
+            "serial": 100,
+            "playerIndex": 1,
+            "name": "Ultra Ball"
+          },
+          {
+            "id": 457,
+            "serial": 75,
+            "playerIndex": 1,
+            "name": "Team Rocket's Golbat"
+          },
+          {
+            "id": 1121,
+            "serial": 97,
+            "playerIndex": 1,
+            "name": "Ultra Ball"
+          },
+          {
+            "id": 1134,
+            "serial": 94,
+            "playerIndex": 1,
+            "name": "Team Rocket's Transceiver"
+          },
+          {
+            "id": 401,
+            "serial": 66,
+            "playerIndex": 1,
+            "name": "Team Rocket's Spidops"
+          },
+          {
+            "id": 1218,
+            "serial": 90,
+            "playerIndex": 1,
+            "name": "Team Rocket's Giovanni"
+          },
+          {
+            "id": 400,
+            "serial": 71,
+            "playerIndex": 1,
+            "name": "Team Rocket's Tarountula"
+          },
+          {
+            "id": 1,
+            "serial": 115,
+            "playerIndex": 1,
+            "name": "Basic {G} Energy"
+          },
+          {
+            "id": 1116,
+            "serial": 101,
+            "playerIndex": 1,
+            "name": "Energy Switch"
+          },
+          {
+            "id": 1123,
+            "serial": 106,
+            "playerIndex": 1,
+            "name": "Switch"
+          },
+          {
+            "id": 1216,
+            "serial": 81,
+            "playerIndex": 1,
+            "name": "Team Rocket's Ariana"
+          },
+          {
+            "id": 7,
+            "serial": 122,
+            "playerIndex": 1,
+            "name": "Basic {D} Energy"
+          },
+          {
+            "id": 1216,
+            "serial": 80,
+            "playerIndex": 1,
+            "name": "Team Rocket's Ariana"
+          },
+          {
+            "id": 1107,
+            "serial": 107,
+            "playerIndex": 1,
+            "name": "Scramble Switch"
+          },
+          {
+            "id": 434,
+            "serial": 79,
+            "playerIndex": 1,
+            "name": "Team Rocket's Mimikyu"
+          },
+          {
+            "id": 456,
+            "serial": 76,
+            "playerIndex": 1,
+            "name": "Team Rocket's Zubat"
+          },
+          {
+            "id": 1,
+            "serial": 117,
+            "playerIndex": 1,
+            "name": "Basic {G} Energy"
+          },
+          {
+            "id": 1257,
+            "serial": 110,
+            "playerIndex": 1,
+            "name": "Team Rocket's Factory"
+          },
+          {
+            "id": 1,
+            "serial": 116,
+            "playerIndex": 1,
+            "name": "Basic {G} Energy"
+          },
+          {
+            "id": 1121,
+            "serial": 98,
+            "playerIndex": 1,
+            "name": "Ultra Ball"
+          },
+          {
+            "id": 1121,
+            "serial": 99,
+            "playerIndex": 1,
+            "name": "Ultra Ball"
+          },
+          {
+            "id": 1134,
+            "serial": 93,
+            "playerIndex": 1,
+            "name": "Team Rocket's Transceiver"
+          },
+          {
+            "id": 5,
+            "serial": 120,
+            "playerIndex": 1,
+            "name": "Basic {P} Energy"
+          },
+          {
+            "id": 1220,
+            "serial": 86,
+            "playerIndex": 1,
+            "name": "Team Rocket's Proton"
+          },
+          {
+            "id": 414,
+            "serial": 78,
+            "playerIndex": 1,
+            "name": "Team Rocket's Articuno"
+          },
+          {
+            "id": 1216,
+            "serial": 83,
+            "playerIndex": 1,
+            "name": "Team Rocket's Ariana"
+          },
+          {
+            "id": 1097,
+            "serial": 103,
+            "playerIndex": 1,
+            "name": "Night Stretcher"
+          },
+          {
+            "id": 7,
+            "serial": 121,
+            "playerIndex": 1,
+            "name": "Basic {D} Energy"
+          },
+          {
+            "id": 1097,
+            "serial": 104,
+            "playerIndex": 1,
+            "name": "Night Stretcher"
+          },
+          {
+            "id": 458,
+            "serial": 72,
+            "playerIndex": 1,
+            "name": "Team Rocket's Crobat ex"
+          },
+          {
+            "id": 1134,
+            "serial": 95,
+            "playerIndex": 1,
+            "name": "Team Rocket's Transceiver"
+          },
+          {
+            "id": 457,
+            "serial": 74,
+            "playerIndex": 1,
+            "name": "Team Rocket's Golbat"
+          }
+        ],
+        "poisoned": false,
+        "burned": false,
+        "asleep": false,
+        "paralyzed": false,
+        "confused": false,
+        "win": 0,
+        "remainingTime": 599.9996440000002
+      }
+    ]
+  }
+}

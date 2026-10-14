@@ -1,0 +1,19 @@
+#app { width: calc(100% - 370px) !important; }
+#pokemon-debug { position: fixed; right: 0; top: 0; bottom: 0; width: 370px;
+  box-sizing: border-box; overflow-y: auto; background: #111827; color: #e5e7eb;
+  border-left: 1px solid #374151; padding: 20px; font: 14px/1.5 system-ui, sans-serif; }
+#pokemon-debug h2 { margin: 0 0 8px; font-size: 20px; }
+#pokemon-debug h3 { margin: 20px 0 8px; font-size: 16px; }
+#pokemon-debug .muted { color: #9ca3af; }
+#pokemon-debug table { width: 100%; border-collapse: collapse; }
+#pokemon-debug th { text-align: left; color: #9ca3af; font-weight: 500; }
+#pokemon-debug td, #pokemon-debug th { padding: 10px 6px; border-bottom: 1px solid #374151; vertical-align: top; }
+#pokemon-debug td:first-child { font-family: monospace; width: 46px; }
+#pokemon-debug .chosen { background: #12382e; }
+#pokemon-debug .badge { color: #6ee7b7; display: block; font-size: 12px; font-weight: 600; }
+#pokemon-debug summary { cursor: pointer; color: #9ca3af; font-size: 12px; margin-top: 5px; }
+#pokemon-debug pre { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 11px; }
+@media (max-width: 1100px) {
+  #app { width: 100% !important; height: 65% !important; }
+  #pokemon-debug { top: 65%; width: 100%; border-top: 1px solid #374151; border-left: none; }
+}

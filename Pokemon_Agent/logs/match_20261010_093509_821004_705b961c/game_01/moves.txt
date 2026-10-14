@@ -1,0 +1,2344 @@
+Decision 1 | Turn 0 | Determined
+Context: IsFirst | Type: YesNo
+Select between 1 and 1 options
+  [0] {"type": "Yes"}
+  [1] {"type": "No"}
+Chosen indices: [0]
+Chosen options: [{"type": "Yes"}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 2 | Turn 0 | Determined
+Context: SetupActivePokemon | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 2, "index": 2, "playerIndex": 0}
+  [1] {"type": "Card", "area": 2, "index": 6, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 2, "index": 2, "playerIndex": 0}]
+Status after: INACTIVE
+Events before decision: [{"type": 4, "playerIndex": 0, "cardId": 1, "serial": 56}, {"type": 4, "playerIndex": 0, "cardId": 1097, "serial": 44}, {"type": 4, "playerIndex": 0, "cardId": 456, "serial": 16}, {"type": 4, "playerIndex": 0, "cardId": 1217, "serial": 28}, {"type": 4, "playerIndex": 0, "cardId": 401, "serial": 8}, {"type": 4, "playerIndex": 0, "cardId": 1121, "serial": 37}, {"type": 4, "playerIndex": 0, "cardId": 400, "serial": 10}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 1, "playerIndex": 0, "hasBasicPokemon": true}, {"type": 1, "playerIndex": 1, "hasBasicPokemon": false}]
+
+Decision 3 | Turn 0 | Random
+Context: SetupActivePokemon | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 2, "index": 4, "playerIndex": 1}
+  [1] {"type": "Card", "area": 2, "index": 6, "playerIndex": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 2, "index": 4, "playerIndex": 1}]
+Status after: INACTIVE
+Events before decision: [{"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 4, "playerIndex": 1, "cardId": 1134, "serial": 94}, {"type": 4, "playerIndex": 1, "cardId": 1257, "serial": 109}, {"type": 4, "playerIndex": 1, "cardId": 1097, "serial": 104}, {"type": 4, "playerIndex": 1, "cardId": 5, "serial": 118}, {"type": 4, "playerIndex": 1, "cardId": 1220, "serial": 85}, {"type": 4, "playerIndex": 1, "cardId": 1116, "serial": 101}, {"type": 4, "playerIndex": 1, "cardId": 15, "serial": 114}, {"type": 1, "playerIndex": 0, "hasBasicPokemon": true}, {"type": 1, "playerIndex": 1, "hasBasicPokemon": false}, {"type": 7, "playerIndex": 0, "fromArea": 2, "toArea": 4}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 6, "playerIndex": 1, "cardId": 15, "serial": 114, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 1116, "serial": 101, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 1220, "serial": 85, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 5, "serial": 118, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 1097, "serial": 104, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 1257, "serial": 109, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 1134, "serial": 94, "fromArea": 2, "toArea": 1}, {"type": 0, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 1121, "serial": 98}, {"type": 4, "playerIndex": 1, "cardId": 15, "serial": 111}, {"type": 4, "playerIndex": 1, "cardId": 457, "serial": 75}, {"type": 4, "playerIndex": 1, "cardId": 1220, "serial": 87}, {"type": 4, "playerIndex": 1, "cardId": 431, "serial": 65}, {"type": 4, "playerIndex": 1, "cardId": 1220, "serial": 84}, {"type": 4, "playerIndex": 1, "cardId": 434, "serial": 79}, {"type": 1, "playerIndex": 1, "hasBasicPokemon": true}]
+
+Decision 4 | Turn 0 | Determined
+Context: DrawCount | Type: Count
+Select between 1 and 1 options
+  [0] {"type": "Number", "number": 0}
+  [1] {"type": "Number", "number": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Number", "number": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 456, "serial": 16, "fromArea": 2, "toArea": 4}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 0, "fromArea": 1, "toArea": 6}, {"type": 6, "playerIndex": 1, "cardId": 15, "serial": 114, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 1116, "serial": 101, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 1220, "serial": 85, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 5, "serial": 118, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 1097, "serial": 104, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 1257, "serial": 109, "fromArea": 2, "toArea": 1}, {"type": 6, "playerIndex": 1, "cardId": 1134, "serial": 94, "fromArea": 2, "toArea": 1}, {"type": 0, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 1, "playerIndex": 1, "hasBasicPokemon": true}, {"type": 7, "playerIndex": 1, "fromArea": 2, "toArea": 4}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}]
+
+Decision 5 | Turn 0 | Determined
+Context: SetupBenchPokemon | Type: Card
+Select between 0 and 1 options
+  [0] {"type": "Card", "area": 2, "index": 5, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 2, "index": 5, "playerIndex": 0}]
+Status after: INACTIVE
+Events before decision: []
+
+Decision 6 | Turn 0 | Random
+Context: SetupBenchPokemon | Type: Card
+Select between 0 and 1 options
+  [0] {"type": "Card", "area": 2, "index": 5, "playerIndex": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 2, "index": 5, "playerIndex": 1}]
+Status after: INACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 431, "serial": 65, "fromArea": 2, "toArea": 4}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}, {"type": 7, "playerIndex": 1, "fromArea": 1, "toArea": 6}]
+
+Decision 7 | Turn 1 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 0, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 0, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Play", "index": 4}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attach", "area": 2, "index": 0, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 400, "serial": 10, "fromArea": 2, "toArea": 5}, {"type": 7, "playerIndex": 1, "fromArea": 2, "toArea": 5}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 1217, "serial": 29}]
+
+Decision 8 | Turn 1 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 3}
+  [1] {"type": "Retreat"}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 3}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 1, "serial": 56, "cardIdTarget": 456, "serialTarget": 16}]
+
+Decision 9 | Turn 1 | Determined
+Context: Discard | Type: Card
+Select between 2 and 2 options
+  [0] {"type": "Card", "area": 2, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 2, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 2, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 2, "index": 3, "playerIndex": 0}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "Card", "area": 2, "index": 0, "playerIndex": 0}, {"type": "Card", "area": 2, "index": 1, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1121, "serial": 37}]
+
+Decision 10 | Turn 1 | Determined
+Context: ToHand | Type: Card
+Select between 0 and 1 options
+  [0] {"type": "Card", "area": 1, "index": 1, "playerIndex": 0}
+  [1] {"type": "Card", "area": 1, "index": 2, "playerIndex": 0}
+  [2] {"type": "Card", "area": 1, "index": 5, "playerIndex": 0}
+  [3] {"type": "Card", "area": 1, "index": 6, "playerIndex": 0}
+  [4] {"type": "Card", "area": 1, "index": 14, "playerIndex": 0}
+  [5] {"type": "Card", "area": 1, "index": 28, "playerIndex": 0}
+  [6] {"type": "Card", "area": 1, "index": 30, "playerIndex": 0}
+  [7] {"type": "Card", "area": 1, "index": 35, "playerIndex": 0}
+  [8] {"type": "Card", "area": 1, "index": 36, "playerIndex": 0}
+  [9] {"type": "Card", "area": 1, "index": 38, "playerIndex": 0}
+  [10] {"type": "Card", "area": 1, "index": 39, "playerIndex": 0}
+  [11] {"type": "Card", "area": 1, "index": 45, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 1, "index": 1, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 1097, "serial": 44, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 1217, "serial": 28, "fromArea": 2, "toArea": 3}]
+
+Decision 11 | Turn 1 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 2}
+  [1] {"type": "Retreat"}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 2}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 431, "serial": 3, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}]
+
+Decision 12 | Turn 1 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Retreat"}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Retreat"}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 431, "serial": 3}]
+
+Decision 13 | Turn 1 | Determined
+Context: DiscardEnergy | Type: Energy
+Select between 1 and 1 options
+  [0] {"type": "Energy", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 0, "count": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Energy", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 0, "count": 1}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 14 | Turn 1 | Determined
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 5, "index": 0, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 1, "serial": 56, "fromArea": 8, "toArea": 3}]
+
+Decision 15 | Turn 1 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 8, "playerIndex": 0, "cardIdActive": 456, "serialActive": 16, "cardIdBench": 400, "serialBench": 10}]
+
+Decision 16 | Turn 2 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 4, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 0}
+  [3] {"type": "Play", "index": 3}
+  [4] {"type": "Play", "index": 4}
+  [5] {"type": "End"}
+Chosen indices: [1]
+Chosen options: [{"type": "Attach", "area": 2, "index": 1, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 7, "playerIndex": 0, "fromArea": 2, "toArea": 5}, {"type": 6, "playerIndex": 1, "cardId": 434, "serial": 79, "fromArea": 2, "toArea": 5}, {"type": 2, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 11, "playerIndex": 0, "cardId": 1, "serial": 56, "cardIdTarget": 456, "serialTarget": 16}, {"type": 10, "playerIndex": 0, "cardId": 1121, "serial": 37}, {"type": 6, "playerIndex": 0, "cardId": 1097, "serial": 44, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 1217, "serial": 28, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 431, "serial": 3, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 431, "serial": 3}, {"type": 6, "playerIndex": 0, "cardId": 1, "serial": 56, "fromArea": 8, "toArea": 3}, {"type": 8, "playerIndex": 0, "cardIdActive": 456, "serialActive": 16, "cardIdBench": 400, "serialBench": 10}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 458, "serial": 72}]
+
+Decision 17 | Turn 2 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 2}
+  [2] {"type": "Play", "index": 3}
+  [3] {"type": "End"}
+Chosen indices: [1]
+Chosen options: [{"type": "Play", "index": 2}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 1, "cardId": 15, "serial": 111, "cardIdTarget": 431, "serialTarget": 65}]
+
+Decision 18 | Turn 2 | Random
+Context: ToHand | Type: Card
+Select between 0 and 3 options
+  [0] {"type": "Card", "area": 1, "index": 5, "playerIndex": 1}
+  [1] {"type": "Card", "area": 1, "index": 10, "playerIndex": 1}
+  [2] {"type": "Card", "area": 1, "index": 13, "playerIndex": 1}
+  [3] {"type": "Card", "area": 1, "index": 21, "playerIndex": 1}
+  [4] {"type": "Card", "area": 1, "index": 22, "playerIndex": 1}
+  [5] {"type": "Card", "area": 1, "index": 30, "playerIndex": 1}
+  [6] {"type": "Card", "area": 1, "index": 32, "playerIndex": 1}
+  [7] {"type": "Card", "area": 1, "index": 42, "playerIndex": 1}
+Chosen indices: [2, 5, 0]
+Chosen options: [{"type": "Card", "area": 1, "index": 13, "playerIndex": 1}, {"type": "Card", "area": 1, "index": 30, "playerIndex": 1}, {"type": "Card", "area": 1, "index": 5, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 1220, "serial": 87}]
+
+Decision 19 | Turn 2 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 4}
+  [2] {"type": "Play", "index": 5}
+  [3] {"type": "Play", "index": 6}
+  [4] {"type": "End"}
+Chosen indices: [2]
+Chosen options: [{"type": "Play", "index": 5}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 400, "serial": 69, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 1, "cardId": 431, "serial": 63, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 1, "cardId": 431, "serial": 64, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}]
+
+Decision 20 | Turn 2 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 4}
+  [2] {"type": "Play", "index": 5}
+  [3] {"type": "End"}
+Chosen indices: [2]
+Chosen options: [{"type": "Play", "index": 5}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 431, "serial": 63}]
+
+Decision 21 | Turn 2 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 4}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 431, "serial": 64}]
+
+Decision 22 | Turn 2 | Random
+Context: Discard | Type: Card
+Select between 2 and 2 options
+  [0] {"type": "Card", "area": 2, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 2, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 2, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 2, "index": 3, "playerIndex": 1}
+Chosen indices: [2, 0]
+Chosen options: [{"type": "Card", "area": 2, "index": 2, "playerIndex": 1}, {"type": "Card", "area": 2, "index": 0, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 1121, "serial": 98}]
+
+Decision 23 | Turn 2 | Random
+Context: ToHand | Type: Card
+Select between 0 and 1 options
+  [0] {"type": "Card", "area": 1, "index": 1, "playerIndex": 1}
+  [1] {"type": "Card", "area": 1, "index": 3, "playerIndex": 1}
+  [2] {"type": "Card", "area": 1, "index": 10, "playerIndex": 1}
+  [3] {"type": "Card", "area": 1, "index": 17, "playerIndex": 1}
+  [4] {"type": "Card", "area": 1, "index": 21, "playerIndex": 1}
+  [5] {"type": "Card", "area": 1, "index": 24, "playerIndex": 1}
+  [6] {"type": "Card", "area": 1, "index": 31, "playerIndex": 1}
+  [7] {"type": "Card", "area": 1, "index": 32, "playerIndex": 1}
+  [8] {"type": "Card", "area": 1, "index": 38, "playerIndex": 1}
+Chosen indices: [4]
+Chosen options: [{"type": "Card", "area": 1, "index": 21, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 458, "serial": 72, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 457, "serial": 75, "fromArea": 2, "toArea": 3}]
+
+Decision 24 | Turn 2 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 1}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 457, "serial": 74, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}]
+
+Decision 25 | Turn 2 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 400, "serial": 69}]
+
+Decision 26 | Turn 3 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 0, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Play", "index": 2}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Evolve", "area": 2, "index": 0, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 11, "playerIndex": 1, "cardId": 15, "serial": 111, "cardIdTarget": 431, "serialTarget": 65}, {"type": 10, "playerIndex": 1, "cardId": 1220, "serial": 87}, {"type": 6, "playerIndex": 1, "cardId": 400, "serial": 69, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 1, "cardId": 431, "serial": 63, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 1, "cardId": 431, "serial": 64, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}, {"type": 10, "playerIndex": 1, "cardId": 431, "serial": 63}, {"type": 10, "playerIndex": 1, "cardId": 431, "serial": 64}, {"type": 10, "playerIndex": 1, "cardId": 1121, "serial": 98}, {"type": 6, "playerIndex": 1, "cardId": 458, "serial": 72, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 457, "serial": 75, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 457, "serial": 74, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}, {"type": 10, "playerIndex": 1, "cardId": 400, "serial": 69}, {"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 431, "serial": 4}]
+
+Decision 27 | Turn 3 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 1}
+  [1] {"type": "Ability", "area": 4, "index": 0}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 12, "playerIndex": 0, "cardId": 401, "serial": 8, "cardIdTarget": 400, "serialTarget": 10}]
+
+Decision 28 | Turn 3 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 4, "index": 0}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 4, "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 431, "serial": 4}]
+
+Decision 29 | Turn 3 | Determined
+Context: AttachTo | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 3, "index": 3, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 3, "index": 3, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 30 | Turn 3 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 1, "serial": 56, "cardIdTarget": 401, "serialTarget": 8}]
+
+Decision 31 | Turn 4 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Attach", "area": 2, "index": 2, "inPlayArea": 4, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 2, "inPlayArea": 5, "inPlayIndex": 0}
+  [3] {"type": "Attach", "area": 2, "index": 2, "inPlayArea": 5, "inPlayIndex": 1}
+  [4] {"type": "Attach", "area": 2, "index": 2, "inPlayArea": 5, "inPlayIndex": 2}
+  [5] {"type": "Attach", "area": 2, "index": 2, "inPlayArea": 5, "inPlayIndex": 3}
+  [6] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 12, "playerIndex": 0, "cardId": 401, "serial": 8, "cardIdTarget": 400, "serialTarget": 10}, {"type": 10, "playerIndex": 0, "cardId": 431, "serial": 4}, {"type": 11, "playerIndex": 0, "cardId": 1, "serial": 56, "cardIdTarget": 401, "serialTarget": 8}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 5, "serial": 120}]
+
+Decision 32 | Turn 4 | Random
+Context: ToHand | Type: Card
+Select between 0 and 3 options
+  [0] {"type": "Card", "area": 1, "index": 2, "playerIndex": 1}
+  [1] {"type": "Card", "area": 1, "index": 12, "playerIndex": 1}
+  [2] {"type": "Card", "area": 1, "index": 16, "playerIndex": 1}
+  [3] {"type": "Card", "area": 1, "index": 24, "playerIndex": 1}
+  [4] {"type": "Card", "area": 1, "index": 29, "playerIndex": 1}
+Chosen indices: [0, 3, 4]
+Chosen options: [{"type": "Card", "area": 1, "index": 2, "playerIndex": 1}, {"type": "Card", "area": 1, "index": 24, "playerIndex": 1}, {"type": "Card", "area": 1, "index": 29, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 1220, "serial": 84}]
+
+Decision 33 | Turn 4 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Play", "index": 2}
+  [6] {"type": "Play", "index": 3}
+  [7] {"type": "Play", "index": 4}
+  [8] {"type": "End"}
+Chosen indices: [8]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 400, "serial": 70, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 1, "cardId": 414, "serial": 78, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 1, "cardId": 456, "serial": 77, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}]
+
+Decision 34 | Turn 5 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 1}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 10, "playerIndex": 1, "cardId": 1220, "serial": 84}, {"type": 6, "playerIndex": 1, "cardId": 400, "serial": 70, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 1, "cardId": 414, "serial": 78, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 1, "cardId": 456, "serial": 77, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}, {"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 1216, "serial": 20}]
+
+Decision 35 | Turn 5 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Play", "index": 2}
+  [5] {"type": "Play", "index": 4}
+  [6] {"type": "Play", "index": 6}
+  [7] {"type": "Play", "index": 7}
+  [8] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attach", "area": 2, "index": 1, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1216, "serial": 20}, {"type": 4, "playerIndex": 0, "cardId": 5, "serial": 58}, {"type": 4, "playerIndex": 0, "cardId": 1257, "serial": 49}, {"type": 4, "playerIndex": 0, "cardId": 458, "serial": 13}, {"type": 4, "playerIndex": 0, "cardId": 431, "serial": 5}, {"type": 4, "playerIndex": 0, "cardId": 1216, "serial": 21}, {"type": 4, "playerIndex": 0, "cardId": 1134, "serial": 33}, {"type": 4, "playerIndex": 0, "cardId": 1121, "serial": 40}]
+
+Decision 36 | Turn 5 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 1}
+  [1] {"type": "Play", "index": 3}
+  [2] {"type": "Play", "index": 5}
+  [3] {"type": "Play", "index": 6}
+  [4] {"type": "Attack", "attackId": 560}
+  [5] {"type": "Retreat"}
+  [6] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 5, "serial": 58, "cardIdTarget": 401, "serialTarget": 8}]
+
+Decision 37 | Turn 5 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 2}
+  [1] {"type": "Play", "index": 4}
+  [2] {"type": "Play", "index": 5}
+  [3] {"type": "Ability", "area": 7, "index": 0}
+  [4] {"type": "Attack", "attackId": 560}
+  [5] {"type": "Retreat"}
+  [6] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 2}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1257, "serial": 49}]
+
+Decision 38 | Turn 5 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 3}
+  [1] {"type": "Play", "index": 4}
+  [2] {"type": "Ability", "area": 7, "index": 0}
+  [3] {"type": "Attack", "attackId": 560}
+  [4] {"type": "Retreat"}
+  [5] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 3}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 431, "serial": 5}]
+
+Decision 39 | Turn 5 | Determined
+Context: ToHand | Type: Card
+Select between 0 and 1 options
+  [0] {"type": "Card", "area": 1, "index": 1, "playerIndex": 0}
+  [1] {"type": "Card", "area": 1, "index": 3, "playerIndex": 0}
+  [2] {"type": "Card", "area": 1, "index": 13, "playerIndex": 0}
+  [3] {"type": "Card", "area": 1, "index": 14, "playerIndex": 0}
+  [4] {"type": "Card", "area": 1, "index": 16, "playerIndex": 0}
+  [5] {"type": "Card", "area": 1, "index": 17, "playerIndex": 0}
+  [6] {"type": "Card", "area": 1, "index": 22, "playerIndex": 0}
+  [7] {"type": "Card", "area": 1, "index": 26, "playerIndex": 0}
+  [8] {"type": "Card", "area": 1, "index": 28, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 1, "index": 1, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1134, "serial": 33}]
+
+Decision 40 | Turn 5 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 3}
+  [1] {"type": "Ability", "area": 7, "index": 0}
+  [2] {"type": "Attack", "attackId": 560}
+  [3] {"type": "Retreat"}
+  [4] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 3}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 1220, "serial": 25, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}]
+
+Decision 41 | Turn 5 | Determined
+Context: Discard | Type: Card
+Select between 2 and 2 options
+  [0] {"type": "Card", "area": 2, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 2, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 2, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 2, "index": 3, "playerIndex": 0}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "Card", "area": 2, "index": 0, "playerIndex": 0}, {"type": "Card", "area": 2, "index": 1, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1121, "serial": 40}]
+
+Decision 42 | Turn 5 | Determined
+Context: ToHand | Type: Card
+Select between 0 and 1 options
+  [0] {"type": "Card", "area": 1, "index": 7, "playerIndex": 0}
+  [1] {"type": "Card", "area": 1, "index": 12, "playerIndex": 0}
+  [2] {"type": "Card", "area": 1, "index": 13, "playerIndex": 0}
+  [3] {"type": "Card", "area": 1, "index": 14, "playerIndex": 0}
+  [4] {"type": "Card", "area": 1, "index": 19, "playerIndex": 0}
+  [5] {"type": "Card", "area": 1, "index": 22, "playerIndex": 0}
+  [6] {"type": "Card", "area": 1, "index": 24, "playerIndex": 0}
+  [7] {"type": "Card", "area": 1, "index": 29, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 1, "index": 7, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 1217, "serial": 29, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 458, "serial": 13, "fromArea": 2, "toArea": 3}]
+
+Decision 43 | Turn 5 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 2, "inPlayArea": 5, "inPlayIndex": 0}
+  [1] {"type": "Ability", "area": 7, "index": 0}
+  [2] {"type": "Attack", "attackId": 560}
+  [3] {"type": "Retreat"}
+  [4] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Evolve", "area": 2, "index": 2, "inPlayArea": 5, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 457, "serial": 14, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}]
+
+Decision 44 | Turn 5 | Determined
+Context: Activate | Type: YesNo
+Select between 1 and 1 options
+  [0] {"type": "Yes"}
+  [1] {"type": "No"}
+Chosen indices: [0]
+Chosen options: [{"type": "Yes"}]
+Status after: ACTIVE
+Events before decision: [{"type": 12, "playerIndex": 0, "cardId": 457, "serial": 14, "cardIdTarget": 456, "serialTarget": 16}]
+
+Decision 45 | Turn 5 | Determined
+Context: DamageCounter | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 4, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [4] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 4, "index": 0, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 46 | Turn 5 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 7, "index": 0}
+  [1] {"type": "Attack", "attackId": 560}
+  [2] {"type": "Retreat"}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 7, "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 16, "playerIndex": 1, "cardId": 431, "serial": 65, "value": -20, "putDamageCounter": true}]
+
+Decision 47 | Turn 5 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attack", "attackId": 560}
+  [1] {"type": "Retreat"}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attack", "attackId": 560}]
+Status after: INACTIVE
+Events before decision: [{"type": 4, "playerIndex": 0, "cardId": 1218, "serial": 30}, {"type": 4, "playerIndex": 0, "cardId": 1219, "serial": 32}]
+
+Decision 48 | Turn 6 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Play", "index": 2}
+  [6] {"type": "Play", "index": 3}
+  [7] {"type": "Play", "index": 4}
+  [8] {"type": "Play", "index": 5}
+  [9] {"type": "End"}
+Chosen indices: [7]
+Chosen options: [{"type": "Play", "index": 4}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1216, "serial": 20}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 11, "playerIndex": 0, "cardId": 5, "serial": 58, "cardIdTarget": 401, "serialTarget": 8}, {"type": 10, "playerIndex": 0, "cardId": 1257, "serial": 49}, {"type": 10, "playerIndex": 0, "cardId": 431, "serial": 5}, {"type": 10, "playerIndex": 0, "cardId": 1134, "serial": 33}, {"type": 6, "playerIndex": 0, "cardId": 1220, "serial": 25, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1121, "serial": 40}, {"type": 6, "playerIndex": 0, "cardId": 1217, "serial": 29, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 458, "serial": 13, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 457, "serial": 14, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}, {"type": 12, "playerIndex": 0, "cardId": 457, "serial": 14, "cardIdTarget": 456, "serialTarget": 16}, {"type": 16, "playerIndex": 1, "cardId": 431, "serial": 65, "value": -20, "putDamageCounter": true}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 15, "playerIndex": 0, "cardId": 401, "serial": 8, "attackId": 560}, {"type": 16, "playerIndex": 1, "cardId": 431, "serial": 65, "value": -150, "putDamageCounter": false}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 1218, "serial": 91}]
+
+Decision 49 | Turn 6 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 4}
+  [6] {"type": "Play", "index": 4}
+  [7] {"type": "End"}
+Chosen indices: [4]
+Chosen options: [{"type": "Attach", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 3}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 456, "serial": 77}]
+
+Decision 50 | Turn 6 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 3}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 3}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 1, "cardId": 5, "serial": 120, "cardIdTarget": 400, "serialTarget": 69}]
+
+Decision 51 | Turn 6 | Random
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 1}
+Chosen indices: [1]
+Chosen options: [{"type": "Card", "area": 5, "index": 1, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 1218, "serial": 91}]
+
+Decision 52 | Turn 6 | Random
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 0}
+Chosen indices: [3]
+Chosen options: [{"type": "Card", "area": 5, "index": 3, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 8, "playerIndex": 1, "cardIdActive": 431, "serialActive": 65, "cardIdBench": 431, "serialBench": 63}]
+
+Decision 53 | Turn 6 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 7, "index": 0}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 7, "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 8, "playerIndex": 0, "cardIdActive": 401, "serialActive": 8, "cardIdBench": 431, "serialBench": 5}]
+
+Decision 54 | Turn 6 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 4}
+  [1] {"type": "End"}
+Chosen indices: [1]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 4, "playerIndex": 1, "cardId": 456, "serial": 76}, {"type": 4, "playerIndex": 1, "cardId": 1121, "serial": 97}]
+
+Decision 55 | Turn 7 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 1}
+  [2] {"type": "Play", "index": 2}
+  [3] {"type": "Play", "index": 3}
+  [4] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 4, "inPlayIndex": 0}
+  [5] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 0}
+  [6] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 1}
+  [7] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 2}
+  [8] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 3}
+  [9] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 15, "playerIndex": 0, "cardId": 401, "serial": 8, "attackId": 560}, {"type": 16, "playerIndex": 1, "cardId": 431, "serial": 65, "value": -150, "putDamageCounter": false}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 10, "playerIndex": 1, "cardId": 456, "serial": 77}, {"type": 11, "playerIndex": 1, "cardId": 5, "serial": 120, "cardIdTarget": 400, "serialTarget": 69}, {"type": 10, "playerIndex": 1, "cardId": 1218, "serial": 91}, {"type": 8, "playerIndex": 1, "cardIdActive": 431, "serialActive": 65, "cardIdBench": 431, "serialBench": 63}, {"type": 8, "playerIndex": 0, "cardIdActive": 401, "serialActive": 8, "cardIdBench": 431, "serialBench": 5}, {"type": 5, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 5, "serial": 59}]
+
+Decision 56 | Turn 7 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 3, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 3, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 3, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 3, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 3, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Play", "index": 4}
+  [6] {"type": "Play", "index": 6}
+  [7] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 4, "inPlayIndex": 0}
+  [8] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 0}
+  [9] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 1}
+  [10] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 2}
+  [11] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 3}
+  [12] {"type": "Ability", "area": 7, "index": 0}
+  [13] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attach", "area": 2, "index": 3, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1216, "serial": 21}, {"type": 4, "playerIndex": 0, "cardId": 1134, "serial": 36}, {"type": 4, "playerIndex": 0, "cardId": 401, "serial": 7}, {"type": 4, "playerIndex": 0, "cardId": 1116, "serial": 41}, {"type": 4, "playerIndex": 0, "cardId": 1, "serial": 55}]
+
+Decision 57 | Turn 7 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 3}
+  [1] {"type": "Play", "index": 5}
+  [2] {"type": "Ability", "area": 7, "index": 0}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 3}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 5, "serial": 59, "cardIdTarget": 431, "serialTarget": 5}]
+
+Decision 58 | Turn 7 | Determined
+Context: ToHand | Type: Card
+Select between 0 and 1 options
+  [0] {"type": "Card", "area": 1, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 1, "index": 3, "playerIndex": 0}
+  [2] {"type": "Card", "area": 1, "index": 8, "playerIndex": 0}
+  [3] {"type": "Card", "area": 1, "index": 11, "playerIndex": 0}
+  [4] {"type": "Card", "area": 1, "index": 17, "playerIndex": 0}
+  [5] {"type": "Card", "area": 1, "index": 25, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 1, "index": 0, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1134, "serial": 36}]
+
+Decision 59 | Turn 7 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 4}
+  [1] {"type": "Ability", "area": 7, "index": 0}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 4}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 1218, "serial": 31, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}]
+
+Decision 60 | Turn 7 | Determined
+Context: SwitchEnergyCard | Type: AttachedCard
+Select between 1 and 1 options
+  [0] {"type": "EnergyCard", "area": 5, "index": 3, "playerIndex": 0, "energyIndex": 0}
+  [1] {"type": "EnergyCard", "area": 5, "index": 3, "playerIndex": 0, "energyIndex": 1}
+  [2] {"type": "EnergyCard", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "EnergyCard", "area": 5, "index": 3, "playerIndex": 0, "energyIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1116, "serial": 41}]
+
+Decision 61 | Turn 7 | Determined
+Context: AttachFrom | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 4, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 5, "index": 0, "playerIndex": 0}
+  [2] {"type": "Card", "area": 5, "index": 1, "playerIndex": 0}
+  [3] {"type": "Card", "area": 5, "index": 2, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 4, "index": 0, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 62 | Turn 7 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 7, "index": 0}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 7, "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 14, "playerIndex": 0, "cardId": 1, "serial": 56, "cardIdBefore": 401, "serialBefore": 8, "cardIdAfter": 431, "serialAfter": 5}]
+
+Decision 63 | Turn 7 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 4, "playerIndex": 0, "cardId": 1220, "serial": 27}, {"type": 4, "playerIndex": 0, "cardId": 7, "serial": 61}]
+
+Decision 64 | Turn 8 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 0, "inPlayArea": 5, "inPlayIndex": 4}
+  [1] {"type": "Play", "index": 4}
+  [2] {"type": "Play", "index": 5}
+  [3] {"type": "End"}
+Chosen indices: [3]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1216, "serial": 21}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 11, "playerIndex": 0, "cardId": 5, "serial": 59, "cardIdTarget": 431, "serialTarget": 5}, {"type": 10, "playerIndex": 0, "cardId": 1134, "serial": 36}, {"type": 6, "playerIndex": 0, "cardId": 1218, "serial": 31, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1116, "serial": 41}, {"type": 14, "playerIndex": 0, "cardId": 1, "serial": 56, "cardIdBefore": 401, "serialBefore": 8, "cardIdAfter": 431, "serialAfter": 5}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 1116, "serial": 101}]
+
+Decision 65 | Turn 9 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 1}
+  [2] {"type": "Play", "index": 2}
+  [3] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 4, "inPlayIndex": 0}
+  [4] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 0}
+  [5] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 1}
+  [6] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 2}
+  [7] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 3}
+  [8] {"type": "Play", "index": 5}
+  [9] {"type": "Play", "index": 6}
+  [10] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 4, "inPlayIndex": 0}
+  [11] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 0}
+  [12] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 1}
+  [13] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 2}
+  [14] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 3}
+  [15] {"type": "Play", "index": 8}
+  [16] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 456, "serial": 17}]
+
+Decision 66 | Turn 9 | Determined
+Context: ToHand | Type: Card
+Select between 0 and 3 options
+  [0] {"type": "Card", "area": 1, "index": 5, "playerIndex": 0}
+  [1] {"type": "Card", "area": 1, "index": 11, "playerIndex": 0}
+  [2] {"type": "Card", "area": 1, "index": 19, "playerIndex": 0}
+Chosen indices: [0, 1, 2]
+Chosen options: [{"type": "Card", "area": 1, "index": 5, "playerIndex": 0}, {"type": "Card", "area": 1, "index": 11, "playerIndex": 0}, {"type": "Card", "area": 1, "index": 19, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1220, "serial": 25}]
+
+Decision 67 | Turn 9 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 3, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 3, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 3, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 3, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 3, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 4, "inPlayIndex": 0}
+  [6] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 0}
+  [7] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 1}
+  [8] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 2}
+  [9] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 3}
+  [10] {"type": "Play", "index": 7}
+  [11] {"type": "Play", "index": 8}
+  [12] {"type": "Play", "index": 9}
+  [13] {"type": "Play", "index": 10}
+  [14] {"type": "Ability", "area": 7, "index": 0}
+  [15] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attach", "area": 2, "index": 3, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 400, "serial": 11, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 0, "cardId": 434, "serial": 19, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 0, "cardId": 400, "serial": 9, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}]
+
+Decision 68 | Turn 9 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 6}
+  [1] {"type": "Play", "index": 7}
+  [2] {"type": "Play", "index": 8}
+  [3] {"type": "Play", "index": 9}
+  [4] {"type": "Ability", "area": 7, "index": 0}
+  [5] {"type": "Retreat"}
+  [6] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 6}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 1, "serial": 55, "cardIdTarget": 431, "serialTarget": 5}]
+
+Decision 69 | Turn 9 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 7, "index": 0}
+  [1] {"type": "Retreat"}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 7, "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 456, "serial": 17}]
+
+Decision 70 | Turn 9 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Retreat"}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Retreat"}]
+Status after: ACTIVE
+Events before decision: [{"type": 4, "playerIndex": 0, "cardId": 1216, "serial": 22}, {"type": 4, "playerIndex": 0, "cardId": 15, "serial": 53}]
+
+Decision 71 | Turn 9 | Determined
+Context: DiscardEnergy | Type: Energy
+Select between 1 and 1 options
+  [0] {"type": "Energy", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 0, "count": 1}
+  [1] {"type": "Energy", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 1, "count": 1}
+  [2] {"type": "Energy", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 2, "count": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Energy", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 0, "count": 1}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 72 | Turn 9 | Determined
+Context: DiscardEnergy | Type: Energy
+Select between 1 and 1 options
+  [0] {"type": "Energy", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 0, "count": 1}
+  [1] {"type": "Energy", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 1, "count": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Energy", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 0, "count": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 1, "serial": 56, "fromArea": 8, "toArea": 3}]
+
+Decision 73 | Turn 9 | Determined
+Context: DiscardEnergy | Type: Energy
+Select between 1 and 1 options
+  [0] {"type": "Energy", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 0, "count": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Energy", "area": 4, "index": 0, "playerIndex": 0, "energyIndex": 0, "count": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 5, "serial": 59, "fromArea": 8, "toArea": 3}]
+
+Decision 74 | Turn 9 | Determined
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 5, "index": 0, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 1, "serial": 55, "fromArea": 8, "toArea": 3}]
+
+Decision 75 | Turn 9 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 5, "index": 3}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 5, "index": 3}]
+Status after: ACTIVE
+Events before decision: [{"type": 8, "playerIndex": 0, "cardIdActive": 431, "serialActive": 5, "cardIdBench": 457, "serialBench": 14}]
+
+Decision 76 | Turn 9 | Determined
+Context: AttachTo | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 3, "index": 12, "playerIndex": 0}
+  [1] {"type": "Card", "area": 3, "index": 13, "playerIndex": 0}
+  [2] {"type": "Card", "area": 3, "index": 14, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 3, "index": 12, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 77 | Turn 9 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 1, "serial": 56, "cardIdTarget": 401, "serialTarget": 8}]
+
+Decision 78 | Turn 10 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 0, "inPlayArea": 5, "inPlayIndex": 4}
+  [1] {"type": "Play", "index": 4}
+  [2] {"type": "Play", "index": 5}
+  [3] {"type": "Play", "index": 6}
+  [4] {"type": "End"}
+Chosen indices: [4]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1220, "serial": 25}, {"type": 6, "playerIndex": 0, "cardId": 400, "serial": 11, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 0, "cardId": 434, "serial": 19, "fromArea": 1, "toArea": 2}, {"type": 6, "playerIndex": 0, "cardId": 400, "serial": 9, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}, {"type": 11, "playerIndex": 0, "cardId": 1, "serial": 55, "cardIdTarget": 431, "serialTarget": 5}, {"type": 10, "playerIndex": 0, "cardId": 456, "serial": 17}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 6, "playerIndex": 0, "cardId": 1, "serial": 56, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 5, "serial": 59, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 1, "serial": 55, "fromArea": 8, "toArea": 3}, {"type": 8, "playerIndex": 0, "cardIdActive": 431, "serialActive": 5, "cardIdBench": 457, "serialBench": 14}, {"type": 11, "playerIndex": 0, "cardId": 1, "serial": 56, "cardIdTarget": 401, "serialTarget": 8}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 1121, "serial": 100}]
+
+Decision 79 | Turn 11 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 1}
+  [2] {"type": "Play", "index": 3}
+  [3] {"type": "Play", "index": 4}
+  [4] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 4, "inPlayIndex": 0}
+  [5] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 5, "inPlayIndex": 0}
+  [6] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 5, "inPlayIndex": 1}
+  [7] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 5, "inPlayIndex": 2}
+  [8] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 5, "inPlayIndex": 3}
+  [9] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 5, "inPlayIndex": 4}
+  [10] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 4, "inPlayIndex": 0}
+  [11] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 0}
+  [12] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 1}
+  [13] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 2}
+  [14] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 3}
+  [15] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 4}
+  [16] {"type": "Evolve", "area": 2, "index": 11, "inPlayArea": 4, "inPlayIndex": 0}
+  [17] {"type": "Ability", "area": 5, "index": 3}
+  [18] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 458, "serial": 12}]
+
+Decision 80 | Turn 11 | Determined
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 5, "index": 0, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1218, "serial": 30}]
+
+Decision 81 | Turn 11 | Determined
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 5, "index": 0, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 8, "playerIndex": 0, "cardIdActive": 457, "serialActive": 14, "cardIdBench": 431, "serialBench": 5}]
+
+Decision 82 | Turn 11 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Attach", "area": 2, "index": 4, "inPlayArea": 5, "inPlayIndex": 4}
+  [6] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 4, "inPlayIndex": 0}
+  [7] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 0}
+  [8] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 1}
+  [9] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 2}
+  [10] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 3}
+  [11] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 4}
+  [12] {"type": "Evolve", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 0}
+  [13] {"type": "Ability", "area": 5, "index": 3}
+  [14] {"type": "Ability", "area": 7, "index": 0}
+  [15] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attach", "area": 2, "index": 4, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 8, "playerIndex": 1, "cardIdActive": 431, "serialActive": 63, "cardIdBench": 434, "serialBench": 79}]
+
+Decision 83 | Turn 11 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 0}
+  [1] {"type": "Ability", "area": 5, "index": 3}
+  [2] {"type": "Ability", "area": 7, "index": 0}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Evolve", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 7, "serial": 61, "cardIdTarget": 431, "serialTarget": 5}]
+
+Decision 84 | Turn 11 | Determined
+Context: Activate | Type: YesNo
+Select between 1 and 1 options
+  [0] {"type": "Yes"}
+  [1] {"type": "No"}
+Chosen indices: [0]
+Chosen options: [{"type": "Yes"}]
+Status after: ACTIVE
+Events before decision: [{"type": 12, "playerIndex": 0, "cardId": 458, "serial": 12, "cardIdTarget": 457, "serialTarget": 14}]
+
+Decision 85 | Turn 11 | Determined
+Context: DamageCounter | Type: Card
+Select between 2 and 2 options
+  [0] {"type": "Card", "area": 4, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [4] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+  [5] {"type": "Card", "area": 5, "index": 4, "playerIndex": 1}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "Card", "area": 4, "index": 0, "playerIndex": 1}, {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 86 | Turn 11 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 5, "index": 3}
+  [1] {"type": "Ability", "area": 7, "index": 0}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 5, "index": 3}]
+Status after: ACTIVE
+Events before decision: [{"type": 16, "playerIndex": 1, "cardId": 434, "serial": 79, "value": -20, "putDamageCounter": true}, {"type": 16, "playerIndex": 1, "cardId": 431, "serial": 63, "value": -20, "putDamageCounter": true}]
+
+Decision 87 | Turn 11 | Determined
+Context: AttachTo | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 3, "index": 12, "playerIndex": 0}
+  [1] {"type": "Card", "area": 3, "index": 13, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 3, "index": 12, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 88 | Turn 11 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 7, "index": 0}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 7, "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 5, "serial": 59, "cardIdTarget": 401, "serialTarget": 8}]
+
+Decision 89 | Turn 11 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 10}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 10}]
+Status after: ACTIVE
+Events before decision: [{"type": 4, "playerIndex": 0, "cardId": 1220, "serial": 24}, {"type": 4, "playerIndex": 0, "cardId": 1121, "serial": 39}]
+
+Decision 90 | Turn 11 | Determined
+Context: Discard | Type: Card
+Select between 2 and 2 options
+  [0] {"type": "Card", "area": 2, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 2, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 2, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 2, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 2, "index": 4, "playerIndex": 0}
+  [5] {"type": "Card", "area": 2, "index": 5, "playerIndex": 0}
+  [6] {"type": "Card", "area": 2, "index": 6, "playerIndex": 0}
+  [7] {"type": "Card", "area": 2, "index": 7, "playerIndex": 0}
+  [8] {"type": "Card", "area": 2, "index": 8, "playerIndex": 0}
+  [9] {"type": "Card", "area": 2, "index": 9, "playerIndex": 0}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "Card", "area": 2, "index": 0, "playerIndex": 0}, {"type": "Card", "area": 2, "index": 1, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1121, "serial": 39}]
+
+Decision 91 | Turn 11 | Determined
+Context: ToHand | Type: Card
+Select between 0 and 1 options
+  [0] {"type": "Card", "area": 1, "index": 1, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 1, "index": 1, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 1219, "serial": 32, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 401, "serial": 7, "fromArea": 2, "toArea": 3}]
+
+Decision 92 | Turn 11 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 4}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Evolve", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 4}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 457, "serial": 15, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}]
+
+Decision 93 | Turn 11 | Determined
+Context: Activate | Type: YesNo
+Select between 1 and 1 options
+  [0] {"type": "Yes"}
+  [1] {"type": "No"}
+Chosen indices: [0]
+Chosen options: [{"type": "Yes"}]
+Status after: ACTIVE
+Events before decision: [{"type": 12, "playerIndex": 0, "cardId": 457, "serial": 15, "cardIdTarget": 456, "serialTarget": 17}]
+
+Decision 94 | Turn 11 | Determined
+Context: DamageCounter | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 4, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [4] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+  [5] {"type": "Card", "area": 5, "index": 4, "playerIndex": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 4, "index": 0, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 95 | Turn 11 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 16, "playerIndex": 1, "cardId": 434, "serial": 79, "value": -20, "putDamageCounter": true}]
+
+Decision 96 | Turn 12 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 0, "inPlayArea": 5, "inPlayIndex": 4}
+  [1] {"type": "Play", "index": 4}
+  [2] {"type": "Play", "index": 5}
+  [3] {"type": "Play", "index": 6}
+  [4] {"type": "Play", "index": 7}
+  [5] {"type": "Retreat"}
+  [6] {"type": "End"}
+Chosen indices: [3]
+Chosen options: [{"type": "Play", "index": 6}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1218, "serial": 30}, {"type": 8, "playerIndex": 0, "cardIdActive": 457, "serialActive": 14, "cardIdBench": 431, "serialBench": 5}, {"type": 8, "playerIndex": 1, "cardIdActive": 431, "serialActive": 63, "cardIdBench": 434, "serialBench": 79}, {"type": 11, "playerIndex": 0, "cardId": 7, "serial": 61, "cardIdTarget": 431, "serialTarget": 5}, {"type": 12, "playerIndex": 0, "cardId": 458, "serial": 12, "cardIdTarget": 457, "serialTarget": 14}, {"type": 16, "playerIndex": 1, "cardId": 434, "serial": 79, "value": -20, "putDamageCounter": true}, {"type": 16, "playerIndex": 1, "cardId": 431, "serial": 63, "value": -20, "putDamageCounter": true}, {"type": 11, "playerIndex": 0, "cardId": 5, "serial": 59, "cardIdTarget": 401, "serialTarget": 8}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1121, "serial": 39}, {"type": 6, "playerIndex": 0, "cardId": 1219, "serial": 32, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 401, "serial": 7, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 457, "serial": 15, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 0}, {"type": 12, "playerIndex": 0, "cardId": 457, "serial": 15, "cardIdTarget": 456, "serialTarget": 17}, {"type": 16, "playerIndex": 1, "cardId": 434, "serial": 79, "value": -20, "putDamageCounter": true}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 1107, "serial": 107}]
+
+Decision 97 | Turn 12 | Random
+Context: Discard | Type: Card
+Select between 2 and 2 options
+  [0] {"type": "Card", "area": 2, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 2, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 2, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 2, "index": 3, "playerIndex": 1}
+  [4] {"type": "Card", "area": 2, "index": 4, "playerIndex": 1}
+  [5] {"type": "Card", "area": 2, "index": 5, "playerIndex": 1}
+  [6] {"type": "Card", "area": 2, "index": 6, "playerIndex": 1}
+Chosen indices: [6, 5]
+Chosen options: [{"type": "Card", "area": 2, "index": 6, "playerIndex": 1}, {"type": "Card", "area": 2, "index": 5, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 1121, "serial": 100}]
+
+Decision 98 | Turn 12 | Random
+Context: ToHand | Type: Card
+Select between 0 and 1 options
+  [0] {"type": "Card", "area": 1, "index": 1, "playerIndex": 1}
+  [1] {"type": "Card", "area": 1, "index": 18, "playerIndex": 1}
+  [2] {"type": "Card", "area": 1, "index": 23, "playerIndex": 1}
+  [3] {"type": "Card", "area": 1, "index": 24, "playerIndex": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 1, "index": 1, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 1107, "serial": 107, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 1116, "serial": 101, "fromArea": 2, "toArea": 3}]
+
+Decision 99 | Turn 12 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 0, "inPlayArea": 5, "inPlayIndex": 4}
+  [1] {"type": "Play", "index": 4}
+  [2] {"type": "Retreat"}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Evolve", "area": 2, "index": 0, "inPlayArea": 5, "inPlayIndex": 4}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 400, "serial": 71, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}]
+
+Decision 100 | Turn 12 | Random
+Context: Activate | Type: YesNo
+Select between 1 and 1 options
+  [0] {"type": "Yes"}
+  [1] {"type": "No"}
+Chosen indices: [1]
+Chosen options: [{"type": "No"}]
+Status after: ACTIVE
+Events before decision: [{"type": 12, "playerIndex": 1, "cardId": 457, "serial": 74, "cardIdTarget": 456, "serialTarget": 77}]
+
+Decision 101 | Turn 12 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 3}
+  [1] {"type": "Retreat"}
+  [2] {"type": "End"}
+Chosen indices: [1]
+Chosen options: [{"type": "Retreat"}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 102 | Turn 12 | Random
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 5, "index": 0, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 103 | Turn 12 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 3}
+  [1] {"type": "End"}
+Chosen indices: [1]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 8, "playerIndex": 1, "cardIdActive": 434, "serialActive": 79, "cardIdBench": 431, "serialBench": 63}]
+
+Decision 104 | Turn 13 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 1}
+  [2] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 4, "inPlayIndex": 0}
+  [3] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 0}
+  [4] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 1}
+  [5] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 2}
+  [6] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 3}
+  [7] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 4}
+  [8] {"type": "Play", "index": 7}
+  [9] {"type": "Ability", "area": 5, "index": 3}
+  [10] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 10, "playerIndex": 1, "cardId": 1121, "serial": 100}, {"type": 6, "playerIndex": 1, "cardId": 1107, "serial": 107, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 1116, "serial": 101, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 400, "serial": 71, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}, {"type": 12, "playerIndex": 1, "cardId": 457, "serial": 74, "cardIdTarget": 456, "serialTarget": 77}, {"type": 8, "playerIndex": 1, "cardIdActive": 434, "serialActive": 79, "cardIdBench": 431, "serialBench": 63}, {"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 1216, "serial": 23}]
+
+Decision 105 | Turn 13 | Determined
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 5, "index": 0, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1218, "serial": 31}]
+
+Decision 106 | Turn 13 | Determined
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 5, "index": 0, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 8, "playerIndex": 0, "cardIdActive": 431, "serialActive": 5, "cardIdBench": 458, "serialBench": 12}]
+
+Decision 107 | Turn 13 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Attach", "area": 2, "index": 5, "inPlayArea": 5, "inPlayIndex": 4}
+  [6] {"type": "Ability", "area": 5, "index": 3}
+  [7] {"type": "Ability", "area": 7, "index": 0}
+  [8] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attach", "area": 2, "index": 5, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 8, "playerIndex": 1, "cardIdActive": 431, "serialActive": 63, "cardIdBench": 434, "serialBench": 79}]
+
+Decision 108 | Turn 13 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 5, "index": 3}
+  [1] {"type": "Ability", "area": 7, "index": 0}
+  [2] {"type": "Attack", "attackId": 646}
+  [3] {"type": "Retreat"}
+  [4] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 5, "index": 3}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 15, "serial": 53, "cardIdTarget": 458, "serialTarget": 12}]
+
+Decision 109 | Turn 13 | Determined
+Context: AttachTo | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 3, "index": 12, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 3, "index": 12, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 110 | Turn 13 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 7, "index": 0}
+  [1] {"type": "Attack", "attackId": 646}
+  [2] {"type": "Retreat"}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 7, "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 1, "serial": 55, "cardIdTarget": 401, "serialTarget": 8}]
+
+Decision 111 | Turn 13 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attack", "attackId": 646}
+  [1] {"type": "Retreat"}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attack", "attackId": 646}]
+Status after: ACTIVE
+Events before decision: [{"type": 4, "playerIndex": 0, "cardId": 1257, "serial": 50}, {"type": 4, "playerIndex": 0, "cardId": 5, "serial": 60}]
+
+Decision 112 | Turn 13 | Determined
+Context: Activate | Type: YesNo
+Select between 1 and 1 options
+  [0] {"type": "Yes"}
+  [1] {"type": "No"}
+Chosen indices: [0]
+Chosen options: [{"type": "Yes"}]
+Status after: ACTIVE
+Events before decision: [{"type": 15, "playerIndex": 0, "cardId": 458, "serial": 12, "attackId": 646}, {"type": 16, "playerIndex": 1, "cardId": 434, "serial": 79, "value": -240, "putDamageCounter": false}]
+
+Decision 113 | Turn 13 | Determined
+Context: ToActive | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 5, "index": 0, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 458, "serial": 12, "fromArea": 4, "toArea": 2}, {"type": 6, "playerIndex": 0, "cardId": 457, "serial": 14, "fromArea": 10, "toArea": 2}, {"type": 6, "playerIndex": 0, "cardId": 456, "serial": 16, "fromArea": 10, "toArea": 2}, {"type": 6, "playerIndex": 0, "cardId": 15, "serial": 53, "fromArea": 8, "toArea": 3}]
+
+Decision 114 | Turn 13 | Determined
+Context: ToHand | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 6, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 6, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 6, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 6, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 6, "index": 4, "playerIndex": 0}
+  [5] {"type": "Card", "area": 6, "index": 5, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 6, "index": 0, "playerIndex": 0}]
+Status after: INACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 431, "serial": 5, "fromArea": 5, "toArea": 4}, {"type": 6, "playerIndex": 1, "cardId": 434, "serial": 79, "fromArea": 4, "toArea": 3}]
+
+Decision 115 | Turn 13 | Random
+Context: ToActive | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 1}
+Chosen indices: [3]
+Chosen options: [{"type": "Card", "area": 5, "index": 3, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1218, "serial": 31}, {"type": 8, "playerIndex": 0, "cardIdActive": 431, "serialActive": 5, "cardIdBench": 458, "serialBench": 12}, {"type": 8, "playerIndex": 1, "cardIdActive": 431, "serialActive": 63, "cardIdBench": 434, "serialBench": 79}, {"type": 11, "playerIndex": 0, "cardId": 15, "serial": 53, "cardIdTarget": 458, "serialTarget": 12}, {"type": 11, "playerIndex": 0, "cardId": 1, "serial": 55, "cardIdTarget": 401, "serialTarget": 8}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 15, "playerIndex": 0, "cardId": 458, "serial": 12, "attackId": 646}, {"type": 16, "playerIndex": 1, "cardId": 434, "serial": 79, "value": -240, "putDamageCounter": false}, {"type": 6, "playerIndex": 0, "cardId": 458, "serial": 12, "fromArea": 4, "toArea": 2}, {"type": 6, "playerIndex": 0, "cardId": 457, "serial": 14, "fromArea": 10, "toArea": 2}, {"type": 6, "playerIndex": 0, "cardId": 456, "serial": 16, "fromArea": 10, "toArea": 2}, {"type": 6, "playerIndex": 0, "cardId": 15, "serial": 53, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 431, "serial": 5, "fromArea": 5, "toArea": 4}, {"type": 6, "playerIndex": 1, "cardId": 434, "serial": 79, "fromArea": 4, "toArea": 3}, {"type": 7, "playerIndex": 0, "fromArea": 6, "toArea": 2}]
+
+Decision 116 | Turn 14 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 1}
+  [2] {"type": "Play", "index": 2}
+  [3] {"type": "Play", "index": 3}
+  [4] {"type": "Play", "index": 4}
+  [5] {"type": "Evolve", "area": 2, "index": 5, "inPlayArea": 4, "inPlayIndex": 0}
+  [6] {"type": "Retreat"}
+  [7] {"type": "End"}
+Chosen indices: [1]
+Chosen options: [{"type": "Play", "index": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 400, "serial": 69, "fromArea": 5, "toArea": 4}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 401, "serial": 68}]
+
+Decision 117 | Turn 14 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 2}
+  [1] {"type": "Evolve", "area": 2, "index": 4, "inPlayArea": 4, "inPlayIndex": 0}
+  [2] {"type": "Retreat"}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 2}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 414, "serial": 78}]
+
+Decision 118 | Turn 14 | Random
+Context: Discard | Type: Card
+Select between 2 and 2 options
+  [0] {"type": "Card", "area": 2, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 2, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 2, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 2, "index": 3, "playerIndex": 1}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "Card", "area": 2, "index": 0, "playerIndex": 1}, {"type": "Card", "area": 2, "index": 1, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 1121, "serial": 97}]
+
+Decision 119 | Turn 14 | Random
+Context: ToHand | Type: Card
+Select between 0 and 1 options
+  [0] {"type": "Card", "area": 1, "index": 13, "playerIndex": 1}
+  [1] {"type": "Card", "area": 1, "index": 23, "playerIndex": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 1, "index": 13, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 400, "serial": 70, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 456, "serial": 76, "fromArea": 2, "toArea": 3}]
+
+Decision 120 | Turn 14 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 1, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Evolve", "area": 2, "index": 2, "inPlayArea": 4, "inPlayIndex": 0}
+  [2] {"type": "Retreat"}
+  [3] {"type": "End"}
+Chosen indices: [2]
+Chosen options: [{"type": "Retreat"}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 401, "serial": 66, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}]
+
+Decision 121 | Turn 14 | Random
+Context: DiscardEnergy | Type: Energy
+Select between 1 and 1 options
+  [0] {"type": "Energy", "area": 4, "index": 0, "playerIndex": 1, "energyIndex": 0, "count": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Energy", "area": 4, "index": 0, "playerIndex": 1, "energyIndex": 0, "count": 1}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 122 | Turn 14 | Random
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 1}
+Chosen indices: [4]
+Chosen options: [{"type": "Card", "area": 5, "index": 4, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 5, "serial": 120, "fromArea": 8, "toArea": 3}]
+
+Decision 123 | Turn 14 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 1, "inPlayArea": 5, "inPlayIndex": 4}
+  [1] {"type": "Evolve", "area": 2, "index": 2, "inPlayArea": 5, "inPlayIndex": 4}
+  [2] {"type": "End"}
+Chosen indices: [1]
+Chosen options: [{"type": "Evolve", "area": 2, "index": 2, "inPlayArea": 5, "inPlayIndex": 4}]
+Status after: ACTIVE
+Events before decision: [{"type": 8, "playerIndex": 1, "cardIdActive": 400, "serialActive": 69, "cardIdBench": 414, "serialBench": 78}]
+
+Decision 124 | Turn 14 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 5, "index": 4}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 5, "index": 4}]
+Status after: ACTIVE
+Events before decision: [{"type": 12, "playerIndex": 1, "cardId": 401, "serial": 66, "cardIdTarget": 400, "serialTarget": 69}]
+
+Decision 125 | Turn 14 | Random
+Context: AttachTo | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 3, "index": 13, "playerIndex": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 3, "index": 13, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 126 | Turn 14 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 11, "playerIndex": 1, "cardId": 5, "serial": 120, "cardIdTarget": 401, "serialTarget": 66}]
+
+Decision 127 | Turn 15 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 1}
+  [2] {"type": "Play", "index": 2}
+  [3] {"type": "Play", "index": 3}
+  [4] {"type": "Play", "index": 5}
+  [5] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 4, "inPlayIndex": 0}
+  [6] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 0}
+  [7] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 1}
+  [8] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 2}
+  [9] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 3}
+  [10] {"type": "Evolve", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 3}
+  [11] {"type": "Play", "index": 11}
+  [12] {"type": "Play", "index": 13}
+  [13] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 401, "serial": 6, "fromArea": 6, "toArea": 2}, {"type": 6, "playerIndex": 1, "cardId": 400, "serial": 69, "fromArea": 5, "toArea": 4}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 10, "playerIndex": 1, "cardId": 414, "serial": 78}, {"type": 10, "playerIndex": 1, "cardId": 1121, "serial": 97}, {"type": 6, "playerIndex": 1, "cardId": 400, "serial": 70, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 456, "serial": 76, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 401, "serial": 66, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}, {"type": 6, "playerIndex": 1, "cardId": 5, "serial": 120, "fromArea": 8, "toArea": 3}, {"type": 8, "playerIndex": 1, "cardIdActive": 400, "serialActive": 69, "cardIdBench": 414, "serialBench": 78}, {"type": 12, "playerIndex": 1, "cardId": 401, "serial": 66, "cardIdTarget": 400, "serialTarget": 69}, {"type": 11, "playerIndex": 1, "cardId": 5, "serial": 120, "cardIdTarget": 401, "serialTarget": 66}, {"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 1123, "serial": 46}]
+
+Decision 128 | Turn 15 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 1}
+  [2] {"type": "Play", "index": 2}
+  [3] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 4, "inPlayIndex": 0}
+  [4] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 0}
+  [5] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 1}
+  [6] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 2}
+  [7] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 3}
+  [8] {"type": "Evolve", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 3}
+  [9] {"type": "Play", "index": 10}
+  [10] {"type": "Play", "index": 12}
+  [11] {"type": "Ability", "area": 7, "index": 0}
+  [12] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1220, "serial": 27}, {"type": 0, "playerIndex": 0}]
+
+Decision 129 | Turn 15 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Attach", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 4}
+  [6] {"type": "Evolve", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 3}
+  [7] {"type": "Play", "index": 11}
+  [8] {"type": "Ability", "area": 7, "index": 0}
+  [9] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attach", "area": 2, "index": 6, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 400, "serial": 11}]
+
+Decision 130 | Turn 15 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 3}
+  [1] {"type": "Play", "index": 10}
+  [2] {"type": "Ability", "area": 7, "index": 0}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Evolve", "area": 2, "index": 6, "inPlayArea": 5, "inPlayIndex": 3}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 5, "serial": 60, "cardIdTarget": 431, "serialTarget": 5}]
+
+Decision 131 | Turn 15 | Determined
+Context: Activate | Type: YesNo
+Select between 1 and 1 options
+  [0] {"type": "Yes"}
+  [1] {"type": "No"}
+Chosen indices: [0]
+Chosen options: [{"type": "Yes"}]
+Status after: ACTIVE
+Events before decision: [{"type": 12, "playerIndex": 0, "cardId": 458, "serial": 12, "cardIdTarget": 457, "serialTarget": 15}]
+
+Decision 132 | Turn 15 | Determined
+Context: DamageCounter | Type: Card
+Select between 2 and 2 options
+  [0] {"type": "Card", "area": 4, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [4] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+  [5] {"type": "Card", "area": 5, "index": 4, "playerIndex": 1}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "Card", "area": 4, "index": 0, "playerIndex": 1}, {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 133 | Turn 15 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 9}
+  [1] {"type": "Ability", "area": 7, "index": 0}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 9}]
+Status after: ACTIVE
+Events before decision: [{"type": 16, "playerIndex": 1, "cardId": 414, "serial": 78, "value": -20, "putDamageCounter": true}, {"type": 16, "playerIndex": 1, "cardId": 431, "serial": 63, "value": -20, "putDamageCounter": true}]
+
+Decision 134 | Turn 15 | Determined
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 5, "index": 0, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1123, "serial": 46}]
+
+Decision 135 | Turn 15 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 7, "index": 0}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 7, "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 8, "playerIndex": 0, "cardIdActive": 431, "serialActive": 5, "cardIdBench": 431, "serialBench": 3}]
+
+Decision 136 | Turn 15 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 9}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 9}]
+Status after: ACTIVE
+Events before decision: [{"type": 4, "playerIndex": 0, "cardId": 1116, "serial": 42}, {"type": 4, "playerIndex": 0, "cardId": 15, "serial": 54}]
+
+Decision 137 | Turn 15 | Determined
+Context: SwitchEnergyCard | Type: AttachedCard
+Select between 1 and 1 options
+  [0] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 0}
+  [1] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 1}
+  [2] {"type": "EnergyCard", "area": 5, "index": 0, "playerIndex": 0, "energyIndex": 0}
+  [3] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 2}
+  [4] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 3}
+  [5] {"type": "EnergyCard", "area": 5, "index": 0, "playerIndex": 0, "energyIndex": 1}
+Chosen indices: [0]
+Chosen options: [{"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1116, "serial": 42}]
+
+Decision 138 | Turn 15 | Determined
+Context: AttachFrom | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 4, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 5, "index": 0, "playerIndex": 0}
+  [2] {"type": "Card", "area": 5, "index": 1, "playerIndex": 0}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 4, "index": 0, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 139 | Turn 15 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 14, "playerIndex": 0, "cardId": 5, "serial": 58, "cardIdBefore": 401, "serialBefore": 8, "cardIdAfter": 431, "serialAfter": 3}]
+
+Decision 140 | Turn 16 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 2}
+  [1] {"type": "End"}
+Chosen indices: [1]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1220, "serial": 27}, {"type": 0, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 400, "serial": 11}, {"type": 11, "playerIndex": 0, "cardId": 5, "serial": 60, "cardIdTarget": 431, "serialTarget": 5}, {"type": 12, "playerIndex": 0, "cardId": 458, "serial": 12, "cardIdTarget": 457, "serialTarget": 15}, {"type": 16, "playerIndex": 1, "cardId": 414, "serial": 78, "value": -20, "putDamageCounter": true}, {"type": 16, "playerIndex": 1, "cardId": 431, "serial": 63, "value": -20, "putDamageCounter": true}, {"type": 10, "playerIndex": 0, "cardId": 1123, "serial": 46}, {"type": 8, "playerIndex": 0, "cardIdActive": 431, "serialActive": 5, "cardIdBench": 431, "serialBench": 3}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1116, "serial": 42}, {"type": 14, "playerIndex": 0, "cardId": 5, "serial": 58, "cardIdBefore": 401, "serialBefore": 8, "cardIdAfter": 431, "serialAfter": 3}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 1216, "serial": 80}]
+
+Decision 141 | Turn 17 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 3}
+  [1] {"type": "Evolve", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 4}
+  [2] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 4, "inPlayIndex": 0}
+  [3] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 0}
+  [4] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 1}
+  [5] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 2}
+  [6] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 3}
+  [7] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 4}
+  [8] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 4, "inPlayIndex": 0}
+  [9] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 0}
+  [10] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 1}
+  [11] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 2}
+  [12] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 3}
+  [13] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 4}
+  [14] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 3}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 7, "serial": 62}]
+
+Decision 142 | Turn 17 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Evolve", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 4}
+  [1] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 4, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 0}
+  [3] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 1}
+  [4] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 2}
+  [5] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 3}
+  [6] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 4}
+  [7] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 4, "inPlayIndex": 0}
+  [8] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 0}
+  [9] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 1}
+  [10] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 2}
+  [11] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 3}
+  [12] {"type": "Attach", "area": 2, "index": 9, "inPlayArea": 5, "inPlayIndex": 4}
+  [13] {"type": "Ability", "area": 7, "index": 0}
+  [14] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Evolve", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 4}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1220, "serial": 24}, {"type": 0, "playerIndex": 0}]
+
+Decision 143 | Turn 17 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 4}
+  [6] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 4, "inPlayIndex": 0}
+  [7] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 0}
+  [8] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 1}
+  [9] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 2}
+  [10] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 3}
+  [11] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 4}
+  [12] {"type": "Ability", "area": 7, "index": 0}
+  [13] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attach", "area": 2, "index": 7, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 12, "playerIndex": 0, "cardId": 401, "serial": 6, "cardIdTarget": 400, "serialTarget": 11}]
+
+Decision 144 | Turn 17 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 7, "index": 0}
+  [1] {"type": "Attack", "attackId": 608}
+  [2] {"type": "Retreat"}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 7, "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 15, "serial": 54, "cardIdTarget": 431, "serialTarget": 3}]
+
+Decision 145 | Turn 17 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 9}
+  [1] {"type": "Attack", "attackId": 608}
+  [2] {"type": "Retreat"}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 9}]
+Status after: ACTIVE
+Events before decision: [{"type": 4, "playerIndex": 0, "cardId": 1257, "serial": 48}, {"type": 4, "playerIndex": 0, "cardId": 1097, "serial": 43}]
+
+Decision 146 | Turn 17 | Determined
+Context: ToHand | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 3, "index": 6, "playerIndex": 0}
+  [1] {"type": "Card", "area": 3, "index": 14, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 3, "index": 6, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1097, "serial": 43}]
+
+Decision 147 | Turn 17 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attack", "attackId": 608}
+  [1] {"type": "Retreat"}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attack", "attackId": 608}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 458, "serial": 13, "fromArea": 3, "toArea": 2}]
+
+Decision 148 | Turn 17 | Determined
+Context: DiscardEnergyCard | Type: AttachedCard
+Select between 0 and 2 options
+  [0] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 0}
+  [1] {"type": "EnergyCard", "area": 5, "index": 0, "playerIndex": 0, "energyIndex": 0}
+  [2] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 1}
+  [3] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 2}
+  [4] {"type": "EnergyCard", "area": 5, "index": 0, "playerIndex": 0, "energyIndex": 1}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 0}, {"type": "EnergyCard", "area": 5, "index": 0, "playerIndex": 0, "energyIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 15, "playerIndex": 0, "cardId": 431, "serial": 3, "attackId": 608}]
+
+Decision 149 | Turn 17 | Determined
+Context: ToHand | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 6, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 6, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 6, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 6, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 6, "index": 4, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 6, "index": 0, "playerIndex": 0}]
+Status after: INACTIVE
+Events before decision: [{"type": 16, "playerIndex": 1, "cardId": 414, "serial": 78, "value": -280, "putDamageCounter": false}, {"type": 6, "playerIndex": 0, "cardId": 1, "serial": 56, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 7, "serial": 61, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 414, "serial": 78, "fromArea": 4, "toArea": 3}]
+
+Decision 150 | Turn 17 | Random
+Context: ToActive | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 1}
+Chosen indices: [1]
+Chosen options: [{"type": "Card", "area": 5, "index": 1, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1220, "serial": 24}, {"type": 0, "playerIndex": 0}, {"type": 12, "playerIndex": 0, "cardId": 401, "serial": 6, "cardIdTarget": 400, "serialTarget": 11}, {"type": 11, "playerIndex": 0, "cardId": 15, "serial": 54, "cardIdTarget": 431, "serialTarget": 3}, {"type": 5, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1097, "serial": 43}, {"type": 6, "playerIndex": 0, "cardId": 458, "serial": 13, "fromArea": 3, "toArea": 2}, {"type": 15, "playerIndex": 0, "cardId": 431, "serial": 3, "attackId": 608}, {"type": 16, "playerIndex": 1, "cardId": 414, "serial": 78, "value": -280, "putDamageCounter": false}, {"type": 6, "playerIndex": 0, "cardId": 1, "serial": 56, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 7, "serial": 61, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 414, "serial": 78, "fromArea": 4, "toArea": 3}, {"type": 7, "playerIndex": 0, "fromArea": 6, "toArea": 2}]
+
+Decision 151 | Turn 18 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 2}
+  [2] {"type": "Play", "index": 3}
+  [3] {"type": "End"}
+Chosen indices: [3]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 431, "serial": 65, "fromArea": 5, "toArea": 4}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 1220, "serial": 86}]
+
+Decision 152 | Turn 19 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Attach", "area": 2, "index": 7, "inPlayArea": 5, "inPlayIndex": 4}
+  [6] {"type": "Attach", "area": 2, "index": 11, "inPlayArea": 4, "inPlayIndex": 0}
+  [7] {"type": "Attach", "area": 2, "index": 11, "inPlayArea": 5, "inPlayIndex": 0}
+  [8] {"type": "Attach", "area": 2, "index": 11, "inPlayArea": 5, "inPlayIndex": 1}
+  [9] {"type": "Attach", "area": 2, "index": 11, "inPlayArea": 5, "inPlayIndex": 2}
+  [10] {"type": "Attach", "area": 2, "index": 11, "inPlayArea": 5, "inPlayIndex": 3}
+  [11] {"type": "Attach", "area": 2, "index": 11, "inPlayArea": 5, "inPlayIndex": 4}
+  [12] {"type": "Ability", "area": 5, "index": 2}
+  [13] {"type": "Ability", "area": 5, "index": 4}
+  [14] {"type": "Attack", "attackId": 608}
+  [15] {"type": "Retreat"}
+  [16] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attach", "area": 2, "index": 7, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 414, "serial": 18, "fromArea": 6, "toArea": 2}, {"type": 6, "playerIndex": 1, "cardId": 431, "serial": 65, "fromArea": 5, "toArea": 4}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 15, "serial": 52}]
+
+Decision 153 | Turn 19 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 5, "index": 2}
+  [1] {"type": "Ability", "area": 5, "index": 4}
+  [2] {"type": "Attack", "attackId": 608}
+  [3] {"type": "Retreat"}
+  [4] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 5, "index": 2}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 7, "serial": 62, "cardIdTarget": 431, "serialTarget": 3}]
+
+Decision 154 | Turn 19 | Determined
+Context: AttachTo | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 3, "index": 22, "playerIndex": 0}
+  [1] {"type": "Card", "area": 3, "index": 23, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 3, "index": 22, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 155 | Turn 19 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 5, "index": 4}
+  [1] {"type": "Attack", "attackId": 608}
+  [2] {"type": "Retreat"}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 5, "index": 4}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 1, "serial": 56, "cardIdTarget": 401, "serialTarget": 8}]
+
+Decision 156 | Turn 19 | Determined
+Context: AttachTo | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 3, "index": 22, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 3, "index": 22, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 157 | Turn 19 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attack", "attackId": 608}
+  [1] {"type": "Retreat"}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attack", "attackId": 608}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 7, "serial": 61, "cardIdTarget": 401, "serialTarget": 6}]
+
+Decision 158 | Turn 19 | Determined
+Context: DiscardEnergyCard | Type: AttachedCard
+Select between 0 and 2 options
+  [0] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 0}
+  [1] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 1}
+  [2] {"type": "EnergyCard", "area": 5, "index": 0, "playerIndex": 0, "energyIndex": 0}
+  [3] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 2}
+  [4] {"type": "EnergyCard", "area": 5, "index": 4, "playerIndex": 0, "energyIndex": 0}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 0}, {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 15, "playerIndex": 0, "cardId": 431, "serial": 3, "attackId": 608}]
+
+Decision 159 | Turn 19 | Determined
+Context: ToHand | Type: Card
+Select between 2 and 2 options
+  [0] {"type": "Card", "area": 6, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 6, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 6, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 6, "index": 3, "playerIndex": 0}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "Card", "area": 6, "index": 0, "playerIndex": 0}, {"type": "Card", "area": 6, "index": 1, "playerIndex": 0}]
+Status after: INACTIVE
+Events before decision: [{"type": 16, "playerIndex": 1, "cardId": 431, "serial": 65, "value": -280, "putDamageCounter": false}, {"type": 6, "playerIndex": 0, "cardId": 5, "serial": 59, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 1, "serial": 55, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 431, "serial": 65, "fromArea": 4, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 15, "serial": 111, "fromArea": 8, "toArea": 3}]
+
+Decision 160 | Turn 19 | Random
+Context: ToActive | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 1}
+Chosen indices: [1]
+Chosen options: [{"type": "Card", "area": 5, "index": 1, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 11, "playerIndex": 0, "cardId": 7, "serial": 62, "cardIdTarget": 431, "serialTarget": 3}, {"type": 11, "playerIndex": 0, "cardId": 1, "serial": 56, "cardIdTarget": 401, "serialTarget": 8}, {"type": 11, "playerIndex": 0, "cardId": 7, "serial": 61, "cardIdTarget": 401, "serialTarget": 6}, {"type": 15, "playerIndex": 0, "cardId": 431, "serial": 3, "attackId": 608}, {"type": 16, "playerIndex": 1, "cardId": 431, "serial": 65, "value": -280, "putDamageCounter": false}, {"type": 6, "playerIndex": 0, "cardId": 5, "serial": 59, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 1, "serial": 55, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 431, "serial": 65, "fromArea": 4, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 15, "serial": 111, "fromArea": 8, "toArea": 3}, {"type": 7, "playerIndex": 0, "fromArea": 6, "toArea": 2}, {"type": 7, "playerIndex": 0, "fromArea": 6, "toArea": 2}]
+
+Decision 161 | Turn 20 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 2}
+  [2] {"type": "Play", "index": 3}
+  [3] {"type": "Play", "index": 4}
+  [4] {"type": "End"}
+Chosen indices: [4]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 431, "serial": 64, "fromArea": 5, "toArea": 4}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 1134, "serial": 95}]
+
+Decision 162 | Turn 21 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Attach", "area": 2, "index": 10, "inPlayArea": 5, "inPlayIndex": 4}
+  [6] {"type": "Play", "index": 11}
+  [7] {"type": "Play", "index": 12}
+  [8] {"type": "Attach", "area": 2, "index": 13, "inPlayArea": 4, "inPlayIndex": 0}
+  [9] {"type": "Attach", "area": 2, "index": 13, "inPlayArea": 5, "inPlayIndex": 0}
+  [10] {"type": "Attach", "area": 2, "index": 13, "inPlayArea": 5, "inPlayIndex": 1}
+  [11] {"type": "Attach", "area": 2, "index": 13, "inPlayArea": 5, "inPlayIndex": 2}
+  [12] {"type": "Attach", "area": 2, "index": 13, "inPlayArea": 5, "inPlayIndex": 3}
+  [13] {"type": "Attach", "area": 2, "index": 13, "inPlayArea": 5, "inPlayIndex": 4}
+  [14] {"type": "Ability", "area": 5, "index": 2}
+  [15] {"type": "Ability", "area": 5, "index": 4}
+  [16] {"type": "Attack", "attackId": 608}
+  [17] {"type": "Retreat"}
+  [18] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attach", "area": 2, "index": 10, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 1121, "serial": 38, "fromArea": 6, "toArea": 2}, {"type": 6, "playerIndex": 0, "cardId": 1123, "serial": 45, "fromArea": 6, "toArea": 2}, {"type": 6, "playerIndex": 1, "cardId": 431, "serial": 64, "fromArea": 5, "toArea": 4}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 15, "serial": 51}]
+
+Decision 163 | Turn 21 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 10}
+  [1] {"type": "Play", "index": 11}
+  [2] {"type": "Ability", "area": 5, "index": 2}
+  [3] {"type": "Ability", "area": 5, "index": 4}
+  [4] {"type": "Attack", "attackId": 608}
+  [5] {"type": "Retreat"}
+  [6] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 10}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 15, "serial": 52, "cardIdTarget": 431, "serialTarget": 3}]
+
+Decision 164 | Turn 21 | Determined
+Context: Discard | Type: Card
+Select between 2 and 2 options
+  [0] {"type": "Card", "area": 2, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 2, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 2, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 2, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 2, "index": 4, "playerIndex": 0}
+  [5] {"type": "Card", "area": 2, "index": 5, "playerIndex": 0}
+  [6] {"type": "Card", "area": 2, "index": 6, "playerIndex": 0}
+  [7] {"type": "Card", "area": 2, "index": 7, "playerIndex": 0}
+  [8] {"type": "Card", "area": 2, "index": 8, "playerIndex": 0}
+  [9] {"type": "Card", "area": 2, "index": 9, "playerIndex": 0}
+  [10] {"type": "Card", "area": 2, "index": 10, "playerIndex": 0}
+  [11] {"type": "Card", "area": 2, "index": 11, "playerIndex": 0}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "Card", "area": 2, "index": 0, "playerIndex": 0}, {"type": "Card", "area": 2, "index": 1, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1121, "serial": 38}]
+
+Decision 165 | Turn 21 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 8}
+  [1] {"type": "Ability", "area": 5, "index": 2}
+  [2] {"type": "Ability", "area": 5, "index": 4}
+  [3] {"type": "Attack", "attackId": 608}
+  [4] {"type": "Retreat"}
+  [5] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 8}]
+Status after: ACTIVE
+Events before decision: [{"type": 6, "playerIndex": 0, "cardId": 434, "serial": 19, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 400, "serial": 9, "fromArea": 2, "toArea": 3}, {"type": 0, "playerIndex": 0}]
+
+Decision 166 | Turn 21 | Determined
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 5, "index": 0, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1123, "serial": 45}]
+
+Decision 167 | Turn 21 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 5, "index": 2}
+  [1] {"type": "Ability", "area": 5, "index": 4}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 5, "index": 2}]
+Status after: ACTIVE
+Events before decision: [{"type": 8, "playerIndex": 0, "cardIdActive": 431, "serialActive": 3, "cardIdBench": 431, "serialBench": 5}]
+
+Decision 168 | Turn 21 | Determined
+Context: AttachTo | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 3, "index": 22, "playerIndex": 0}
+  [1] {"type": "Card", "area": 3, "index": 23, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 3, "index": 22, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 169 | Turn 21 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 5, "index": 4}
+  [1] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 5, "index": 4}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 5, "serial": 59, "cardIdTarget": 401, "serialTarget": 8}]
+
+Decision 170 | Turn 21 | Determined
+Context: AttachTo | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 3, "index": 22, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 3, "index": 22, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: []
+
+Decision 171 | Turn 21 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 1, "serial": 55, "cardIdTarget": 401, "serialTarget": 6}]
+
+Decision 172 | Turn 22 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 2}
+  [2] {"type": "Play", "index": 3}
+  [3] {"type": "Play", "index": 4}
+  [4] {"type": "End"}
+Chosen indices: [3]
+Chosen options: [{"type": "Play", "index": 4}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 5, "playerIndex": 0}, {"type": 11, "playerIndex": 0, "cardId": 15, "serial": 52, "cardIdTarget": 431, "serialTarget": 3}, {"type": 10, "playerIndex": 0, "cardId": 1121, "serial": 38}, {"type": 6, "playerIndex": 0, "cardId": 434, "serial": 19, "fromArea": 2, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 400, "serial": 9, "fromArea": 2, "toArea": 3}, {"type": 0, "playerIndex": 0}, {"type": 10, "playerIndex": 0, "cardId": 1123, "serial": 45}, {"type": 8, "playerIndex": 0, "cardIdActive": 431, "serialActive": 3, "cardIdBench": 431, "serialBench": 5}, {"type": 11, "playerIndex": 0, "cardId": 5, "serial": 59, "cardIdTarget": 401, "serialTarget": 8}, {"type": 11, "playerIndex": 0, "cardId": 1, "serial": 55, "cardIdTarget": 401, "serialTarget": 6}, {"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 4, "playerIndex": 1, "cardId": 1217, "serial": 88}]
+
+Decision 173 | Turn 22 | Random
+Context: ToHand | Type: Card
+Select between 0 and 1 options
+  [0] {"type": "Card", "area": 1, "index": 0, "playerIndex": 1}
+  [1] {"type": "Card", "area": 1, "index": 1, "playerIndex": 1}
+  [2] {"type": "Card", "area": 1, "index": 2, "playerIndex": 1}
+  [3] {"type": "Card", "area": 1, "index": 6, "playerIndex": 1}
+  [4] {"type": "Card", "area": 1, "index": 11, "playerIndex": 1}
+  [5] {"type": "Card", "area": 1, "index": 19, "playerIndex": 1}
+  [6] {"type": "Card", "area": 1, "index": 24, "playerIndex": 1}
+Chosen indices: [4]
+Chosen options: [{"type": "Card", "area": 1, "index": 11, "playerIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 1, "cardId": 1134, "serial": 95}]
+
+Decision 174 | Turn 22 | Random
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 2}
+  [2] {"type": "Play", "index": 3}
+  [3] {"type": "Play", "index": 5}
+  [4] {"type": "End"}
+Chosen indices: [4]
+Chosen options: [{"type": "End"}]
+Status after: INACTIVE
+Events before decision: [{"type": 6, "playerIndex": 1, "cardId": 1219, "serial": 92, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}]
+
+Decision 175 | Turn 23 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 4, "inPlayIndex": 0}
+  [1] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 0}
+  [2] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 1}
+  [3] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 2}
+  [4] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 3}
+  [5] {"type": "Attach", "area": 2, "index": 8, "inPlayArea": 5, "inPlayIndex": 4}
+  [6] {"type": "Play", "index": 9}
+  [7] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attach", "area": 2, "index": 8, "inPlayArea": 4, "inPlayIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 3, "playerIndex": 0}, {"type": 2, "playerIndex": 1}, {"type": 5, "playerIndex": 1}, {"type": 10, "playerIndex": 1, "cardId": 1134, "serial": 95}, {"type": 6, "playerIndex": 1, "cardId": 1219, "serial": 92, "fromArea": 1, "toArea": 2}, {"type": 0, "playerIndex": 1}, {"type": 3, "playerIndex": 1}, {"type": 2, "playerIndex": 0}, {"type": 4, "playerIndex": 0, "cardId": 1107, "serial": 47}]
+
+Decision 176 | Turn 23 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 8}
+  [1] {"type": "Attack", "attackId": 608}
+  [2] {"type": "Retreat"}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 8}]
+Status after: ACTIVE
+Events before decision: [{"type": 11, "playerIndex": 0, "cardId": 15, "serial": 51, "cardIdTarget": 431, "serialTarget": 5}]
+
+Decision 177 | Turn 23 | Determined
+Context: Switch | Type: Card
+Select between 1 and 1 options
+  [0] {"type": "Card", "area": 5, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 5, "index": 1, "playerIndex": 0}
+  [2] {"type": "Card", "area": 5, "index": 2, "playerIndex": 0}
+  [3] {"type": "Card", "area": 5, "index": 3, "playerIndex": 0}
+  [4] {"type": "Card", "area": 5, "index": 4, "playerIndex": 0}
+Chosen indices: [0]
+Chosen options: [{"type": "Card", "area": 5, "index": 0, "playerIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1107, "serial": 47}]
+
+Decision 178 | Turn 23 | Determined
+Context: SwitchEnergyCard | Type: AttachedCard
+Select between 0 and 2 options
+  [0] {"type": "EnergyCard", "area": 5, "index": 0, "playerIndex": 0, "energyIndex": 0}
+  [1] {"type": "EnergyCard", "area": 5, "index": 0, "playerIndex": 0, "energyIndex": 1}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "EnergyCard", "area": 5, "index": 0, "playerIndex": 0, "energyIndex": 0}, {"type": "EnergyCard", "area": 5, "index": 0, "playerIndex": 0, "energyIndex": 1}]
+Status after: ACTIVE
+Events before decision: [{"type": 8, "playerIndex": 0, "cardIdActive": 431, "serialActive": 5, "cardIdBench": 431, "serialBench": 3}]
+
+Decision 179 | Turn 23 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Play", "index": 0}
+  [1] {"type": "Play", "index": 1}
+  [2] {"type": "Attack", "attackId": 608}
+  [3] {"type": "Retreat"}
+  [4] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Play", "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 14, "playerIndex": 0, "cardId": 5, "serial": 60, "cardIdBefore": 431, "serialBefore": 5, "cardIdAfter": 431, "serialAfter": 3}, {"type": 14, "playerIndex": 0, "cardId": 15, "serial": 51, "cardIdBefore": 431, "serialBefore": 5, "cardIdAfter": 431, "serialAfter": 3}]
+
+Decision 180 | Turn 23 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Ability", "area": 7, "index": 0}
+  [1] {"type": "Attack", "attackId": 608}
+  [2] {"type": "Retreat"}
+  [3] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Ability", "area": 7, "index": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 10, "playerIndex": 0, "cardId": 1216, "serial": 22}, {"type": 4, "playerIndex": 0, "cardId": 1220, "serial": 26}]
+
+Decision 181 | Turn 23 | Determined
+Context: Main | Type: Main
+Select between 1 and 1 options
+  [0] {"type": "Attack", "attackId": 608}
+  [1] {"type": "Retreat"}
+  [2] {"type": "End"}
+Chosen indices: [0]
+Chosen options: [{"type": "Attack", "attackId": 608}]
+Status after: ACTIVE
+Events before decision: [{"type": 4, "playerIndex": 0, "cardId": 1134, "serial": 34}]
+
+Decision 182 | Turn 23 | Determined
+Context: DiscardEnergyCard | Type: AttachedCard
+Select between 0 and 2 options
+  [0] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 0}
+  [1] {"type": "EnergyCard", "area": 5, "index": 4, "playerIndex": 0, "energyIndex": 0}
+  [2] {"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 1}
+  [3] {"type": "EnergyCard", "area": 5, "index": 4, "playerIndex": 0, "energyIndex": 1}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "EnergyCard", "area": 5, "index": 2, "playerIndex": 0, "energyIndex": 0}, {"type": "EnergyCard", "area": 5, "index": 4, "playerIndex": 0, "energyIndex": 0}]
+Status after: ACTIVE
+Events before decision: [{"type": 15, "playerIndex": 0, "cardId": 431, "serial": 3, "attackId": 608}]
+
+Decision 183 | Turn 23 | Determined
+Context: ToHand | Type: Card
+Select between 2 and 2 options
+  [0] {"type": "Card", "area": 6, "index": 0, "playerIndex": 0}
+  [1] {"type": "Card", "area": 6, "index": 1, "playerIndex": 0}
+Chosen indices: [0, 1]
+Chosen options: [{"type": "Card", "area": 6, "index": 0, "playerIndex": 0}, {"type": "Card", "area": 6, "index": 1, "playerIndex": 0}]
+Status after: INACTIVE
+Events before decision: [{"type": 16, "playerIndex": 1, "cardId": 431, "serial": 64, "value": -280, "putDamageCounter": false}, {"type": 6, "playerIndex": 0, "cardId": 1, "serial": 56, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 0, "cardId": 7, "serial": 61, "fromArea": 8, "toArea": 3}, {"type": 6, "playerIndex": 1, "cardId": 431, "serial": 64, "fromArea": 4, "toArea": 3}]
+

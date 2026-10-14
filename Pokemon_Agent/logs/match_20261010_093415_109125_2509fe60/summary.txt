@@ -1,0 +1,6 @@
+Best-of-3: Agent 0 vs Agent 1
+Match winner: Agent 0
+Score: 2-0
+Game 1: Agent 0
+Game 2: Agent 0
+Final statuses: DONE, DONE
