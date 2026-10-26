@@ -1,0 +1,6 @@
+Game 3: Random won
+Result: simulator result
+Turns: 37
+Decisions: 231
+Determined: 160 decisions
+Random: 71 decisions

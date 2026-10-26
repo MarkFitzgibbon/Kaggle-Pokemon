@@ -1,0 +1,7 @@
+Best-of-3: Determined vs Random
+Match winner: Random
+Score: 1-2
+Game 1: Random
+Game 2: Determined
+Game 3: Random
+Final statuses: DONE, DONE

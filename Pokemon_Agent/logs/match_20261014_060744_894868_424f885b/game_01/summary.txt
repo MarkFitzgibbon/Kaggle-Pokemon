@@ -1,0 +1,6 @@
+Game 1: Random won
+Result: simulator result
+Turns: 19
+Decisions: 169
+Determined: 119 decisions
+Random: 50 decisions
